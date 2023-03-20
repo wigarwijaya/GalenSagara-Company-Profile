@@ -2,20 +2,39 @@
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    id: "services",
+    title: "Services",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "consultants",
+    title: "Consultants",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "projects",
+    title: "Projects",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "products",
+    title: "Products",
+  },
+  {
+    id: "knowledge",
+    title: "Knowledge Center",
+  },
+  {
+    id: "news",
+    title: "News and Events",
+  },
+];
+
+export const navLang = [
+  {
+    id: "EN",
+    title: "EN",
+  },
+  {
+    id: "INA",
+    title: "INA",
   },
 ];
 

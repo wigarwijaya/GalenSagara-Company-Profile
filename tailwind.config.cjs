@@ -22,6 +22,10 @@ module.exports = {
       lg: "1200px",
       xl: "1700px",
     },
+    gridTemplateColumns: {
+      // Simple 16 column grid
+      16: "repeat(5, auto)",
+    },
   },
   plugins: [],
 };
