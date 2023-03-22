@@ -43,3 +43,9 @@ export const navLang = [
     path: "INA",
   },
 ];
+
+export const text = {
+  text1: "First photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat",
+  text2: "Second photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat",
+  text3: "Third photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat",
+}

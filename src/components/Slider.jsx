@@ -15,7 +15,7 @@ import { Autoplay, Pagination } from "swiper";
 
 export default function Slider() {
   return (
-    <>
+    <div id="slider">
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -35,6 +35,6 @@ export default function Slider() {
         <SwiperSlide><img src={pict4}/></SwiperSlide>
         <SwiperSlide><img src={pict5}/></SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }

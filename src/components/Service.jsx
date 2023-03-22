@@ -1,4 +1,5 @@
 import React from "react";
+import { pict1, pict2, pict3, pict4, pict5 } from "../assets";
 
 const Service = () => {
   return (
@@ -17,110 +18,122 @@ const Service = () => {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-5 lg:grid-cols-8 gap-4">
           <div className="w-full h-40">
-            <div className="flex relative">
+            <div className="flex justify-center items-center relative w-full h-full">
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://dummyimage.com/600x360"
+                src={pict1}
               />
-              <div className="relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                <h1 className="title-font text-lg font-medium text-gray-900">
+              <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full">
+                <h1 className="title-font text-lg font-medium text-white">
                   Shooting Stars
                 </h1>
-                <p className="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
-                </p>
+              </div>
+              <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full hover:bg-white opacity-0 hover:opacity-80 transition duration-150 ease-in hover:ease-out">
+                <h1 className="title-font text-lg font-medium text-black">
+                  Shooting Stars
+                </h1>
+                <button className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">Learn More</button>
               </div>
             </div>
           </div>
           <div className="w-full h-40">
-            <div className="flex relative">
+            <div className="flex justify-center items-center relative w-full h-full">
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://dummyimage.com/601x361"
+                src={pict2}
               />
-              <div className="relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                <h1 className="title-font text-lg font-medium text-gray-900">
-                  The Catalyzer
+              <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full">
+                <h1 className="title-font text-lg font-medium text-white">
+                  Shooting Stars
                 </h1>
-                <p className="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
-                </p>
+              </div>
+              <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full hover:bg-white opacity-0 hover:opacity-80 transition duration-150 ease-in hover:ease-out">
+                <h1 className="title-font text-lg font-medium text-black">
+                  Shooting Stars
+                </h1>
+                <button className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">Learn More</button>
               </div>
             </div>
           </div>
           <div className="w-full h-40">
-            <div className="flex relative">
+            <div className="flex justify-center items-center relative w-full h-full">
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://dummyimage.com/603x363"
+                src={pict3}
               />
-              <div className="relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                <h1 className="title-font text-lg font-medium text-gray-900">
-                  The 400 Blows
+              <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full">
+                <h1 className="title-font text-lg font-medium text-white">
+                  Shooting Stars
                 </h1>
-                <p className="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
-                </p>
+              </div>
+              <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full hover:bg-white opacity-0 hover:opacity-80 transition duration-150 ease-in hover:ease-out">
+                <h1 className="title-font text-lg font-medium text-black">
+                  Shooting Stars
+                </h1>
+                <button className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">Learn More</button>
               </div>
             </div>
           </div>
           <div className="w-full h-40">
-            <div className="flex relative">
+            <div className="flex justify-center items-center relative w-full h-full">
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://dummyimage.com/602x362"
+                src={pict4}
               />
-              <div className="relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                <h1 className="title-font text-lg font-medium text-gray-900">
-                  Neptune
+              <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full">
+                <h1 className="title-font text-lg font-medium text-white">
+                  Shooting Stars
                 </h1>
-                <p className="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
-                </p>
+              </div>
+              <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full hover:bg-white opacity-0 hover:opacity-80 transition duration-150 ease-in hover:ease-out">
+                <h1 className="title-font text-lg font-medium text-black">
+                  Shooting Stars
+                </h1>
+                <button className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">Learn More</button>
               </div>
             </div>
           </div>
           <div className="w-full h-40">
-            <div className="flex relative">
+            <div className="flex justify-center items-center relative w-full h-full">
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://dummyimage.com/605x365"
+                src={pict5}
               />
-              <div className="relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                <h1 className="title-font text-lg font-medium text-gray-900">
-                  Holden Caulfield
+              <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full">
+                <h1 className="title-font text-lg font-medium text-white">
+                  Shooting Stars
                 </h1>
-                <p className="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
-                </p>
+              </div>
+              <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full hover:bg-white opacity-0 hover:opacity-80 transition duration-150 ease-in hover:ease-out">
+                <h1 className="title-font text-lg font-medium text-black">
+                  Shooting Stars
+                </h1>
+                <button className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">Learn More</button>
               </div>
             </div>
           </div>
           <div className="w-full h-40">
-            <div className="flex relative">
+            <div className="flex justify-center items-center relative w-full h-full">
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
-                src="https://dummyimage.com/606x366"
+                src={pict1}
               />
-              <div className="relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
-                <h1 className="title-font text-lg font-medium text-gray-900">
-                  Alper Kamu
+              <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full">
+                <h1 className="title-font text-lg font-medium text-white">
+                  Shooting Stars
                 </h1>
-                <p className="leading-relaxed">
-                  Photo booth fam kinfolk cold-pressed sriracha leggings
-                  jianbing microdosing tousled waistcoat.
-                </p>
+              </div>
+              <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full hover:bg-white opacity-0 hover:opacity-80 transition duration-150 ease-in hover:ease-out">
+                <h1 className="title-font text-lg font-medium text-black">
+                  Shooting Stars
+                </h1>
+                <button className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">Learn More</button>
               </div>
             </div>
           </div>

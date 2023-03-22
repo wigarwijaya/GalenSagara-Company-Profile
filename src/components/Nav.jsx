@@ -30,7 +30,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className='navbar' id='nav'>
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
           GALENSAGARA
           <i class='fab fa-firstdraft' />
