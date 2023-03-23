@@ -5,6 +5,7 @@ import Dropdowns from "./Dropdowns";
 import Dropd from "./Dropd";
 import Service from "./Service";
 import LatestUpdate from "./LatestUpdate";
+import FeaturedProject from "./FeaturedProject";
 import Footer from "./Footer";
 
 export {
@@ -15,5 +16,6 @@ export {
   Dropd,
   Service,
   LatestUpdate,
+  FeaturedProject,
   Footer,
 };

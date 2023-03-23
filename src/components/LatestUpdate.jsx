@@ -10,15 +10,15 @@ const LatestUpdate = () => {
 
   return (
     <section className="text-gray-600 body-font">
-      <div className="flex flex-col text-center w-full px-5">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-          Latest Update
-        </h1>
-      </div>
-      <div className="container px-5 py-20 mx-auto">
-        <div className="flex flex-wrap -m-4">
-          <div className="h-[350px] w-[310px] mx-auto relative my-4">
-            <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+      <div className="container mx-auto px-5 py-10">
+        <div className="flex flex-col w-full">
+          <h1 className="sm:text-3xl text-2xl text-start font-medium title-font text-gray-900">
+            Latest Update
+          </h1>
+        </div>
+        <div className="flex flex-wrap">
+          <div className="h-[350px] w-[full] mx-auto relative my-4">
+            <div className="h-full border-2 border-gray-200 border-opacity-60 overflow-hidden">
               <img
                 className="h-full w-full object-cover object-center"
                 src={pict1}
@@ -55,8 +55,8 @@ const LatestUpdate = () => {
               </div>
             </div>
           </div>
-          <div className="h-[350px] w-[310px] mx-auto relative my-4">
-            <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div className="h-[350px] w-full mx-auto relative my-4">
+            <div className="h-full border-2 border-gray-200 border-opacity-60 overflow-hidden">
               <img
                 className="h-full w-full object-cover object-center"
                 src={pict2}
@@ -69,8 +69,7 @@ const LatestUpdate = () => {
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                   The Catalyzer
                 </h1>
-                <p className="leading-relaxed mb-3">{truncate(text.text2)}
-                </p>
+                <p className="leading-relaxed mb-3">{truncate(text.text2)}</p>
                 <div className="flex items-center flex-wrap ">
                   <a
                     href="#nav"
@@ -94,8 +93,8 @@ const LatestUpdate = () => {
               </div>
             </div>
           </div>
-          <div className="h-[350px] w-[310px] mx-auto relative my-4">
-            <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+          <div className="h-[350px] w-full mx-auto relative my-4">
+            <div className="h-full border-2 border-gray-200 border-opacity-60 overflow-hidden">
               <img
                 className="h-full w-full object-cover object-center"
                 src={pict3}
@@ -108,8 +107,7 @@ const LatestUpdate = () => {
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                   The Catalyzer
                 </h1>
-                <p className="leading-relaxed mb-3">{truncate(text.text3)}
-                </p>
+                <p className="leading-relaxed mb-3">{truncate(text.text3)}</p>
                 <div className="flex items-center flex-wrap ">
                   <a
                     href="#nav"

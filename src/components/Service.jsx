@@ -4,12 +4,12 @@ import { pict1, pict2, pict3, pict4, pict5 } from "../assets";
 const Service = () => {
   return (
     <section className="text-gray-600 body-font">
-      <div className="container mx-auto px-5 py-24">
-        <div className="flex flex-col text-center w-full mb-7">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+      <div className="container mx-auto px-5 py-10">
+        <div className="flex flex-col text-center w-full mb-5">
+          <h1 className="sm:text-3xl text-2xl text-start font-medium title-font mb-4 text-gray-900">
             Services
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-start text-base">
             We deliver a range of specialized services to the earth and water
             resource industries. For mining clients, these services cross the
             project life cycle from early-stage exploration through development
@@ -33,7 +33,9 @@ const Service = () => {
                 <h1 className="title-font text-lg font-medium text-black">
                   Shooting Stars
                 </h1>
-                <button className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">Learn More</button>
+                <a href="" className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">
+                  Learn More
+                </a>
               </div>
             </div>
           </div>
@@ -53,7 +55,9 @@ const Service = () => {
                 <h1 className="title-font text-lg font-medium text-black">
                   Shooting Stars
                 </h1>
-                <button className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">Learn More</button>
+                <a href="" className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">
+                  Learn More
+                </a>
               </div>
             </div>
           </div>
@@ -73,7 +77,9 @@ const Service = () => {
                 <h1 className="title-font text-lg font-medium text-black">
                   Shooting Stars
                 </h1>
-                <button className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">Learn More</button>
+                <a href="" className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">
+                  Learn More
+                </a>
               </div>
             </div>
           </div>
@@ -93,7 +99,9 @@ const Service = () => {
                 <h1 className="title-font text-lg font-medium text-black">
                   Shooting Stars
                 </h1>
-                <button className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">Learn More</button>
+                <a href="" className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">
+                  Learn More
+                </a>
               </div>
             </div>
           </div>
@@ -113,7 +121,9 @@ const Service = () => {
                 <h1 className="title-font text-lg font-medium text-black">
                   Shooting Stars
                 </h1>
-                <button className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">Learn More</button>
+                <a href="" className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">
+                  Learn More
+                </a>
               </div>
             </div>
           </div>
@@ -133,7 +143,9 @@ const Service = () => {
                 <h1 className="title-font text-lg font-medium text-black">
                   Shooting Stars
                 </h1>
-                <button className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">Learn More</button>
+                <a href="" className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center">
+                  Learn More
+                </a>
               </div>
             </div>
           </div>
