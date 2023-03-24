@@ -9,6 +9,7 @@ import Dropd from "./Dropd";
 import Service from "./Service";
 import LatestUpdate from "./LatestUpdate";
 import FeaturedProject from "./FeaturedProject";
+import Clients from "./Clients";
 import Footer from "./Footer";
 
 import PdfViewer from "./PdfViewer";
@@ -25,6 +26,7 @@ export {
   Service,
   LatestUpdate,
   FeaturedProject,
+  Clients,
   Footer,
   PdfViewer,
 };

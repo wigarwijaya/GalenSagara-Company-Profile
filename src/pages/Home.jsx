@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from '../components/Slider'
-import { Service, LatestUpdate, FeaturedProject } from '../components'
+import { Service, LatestUpdate, FeaturedProject, Clients } from '../components'
 
 const Home = () => {
   return (
@@ -9,6 +9,7 @@ const Home = () => {
     <Service/>
     <LatestUpdate/>
     <FeaturedProject/>
+    <Clients/>
     </div>
   )
 }

@@ -25,10 +25,6 @@ export const SidebarData = [
         path: '/service/mapping',
       },
       {
-        title: 'Mine Engineering',
-        path: '/service/mine-engineering',
-      },
-      {
         title: 'Environment',
         path: '/service/environment',
       },

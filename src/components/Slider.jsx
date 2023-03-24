@@ -27,11 +27,11 @@ export default function Slider() {
           clickable: true,
         }}
         modules={[Autoplay, Pagination]}
-        className="mySwiper"
+        className="w-[100vw] h-[95vh]"
       >
-        <SwiperSlide>
+        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
           <div className="relative h-full w-full">
-            <img src={pict1} />
+            <img src={pict1} className="block w-full h-full object-cover" />
             <div className="absolute bottom-0 w-full h-50 bg-black/70 p-5">
               <h2 className="text-[#E3682B] font-bold text-2xl text-start">
                 Architecture
@@ -63,9 +63,9 @@ export default function Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
           <div className="relative h-full w-full">
-            <img src={pict2} />
+            <img src={pict2} className="block w-full h-full object-cover" />
             <div className="absolute bottom-0 w-full h-50 bg-black/70 p-5">
               <h2 className="text-[#E3682B] font-bold text-2xl text-start">
                 Planning
@@ -97,9 +97,9 @@ export default function Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
           <div className="relative h-full w-full">
-            <img src={pict3} />
+            <img src={pict3} className="block w-full h-full object-cover" />
             <div className="absolute bottom-0 w-full h-50 bg-black/70 p-5">
               <h2 className="text-[#E3682B] font-bold text-2xl text-start">
                 Engineering Consultant
@@ -130,9 +130,9 @@ export default function Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
           <div className="relative h-full w-full">
-            <img src={pict4} />
+            <img src={pict4} className="block w-full h-full object-cover" />
             <div className="absolute bottom-0 w-full h-50 bg-black/70 p-5">
               <h2 className="text-[#E3682B] font-bold text-2xl text-start">
                 Survey
@@ -163,9 +163,9 @@ export default function Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
           <div className="relative h-full w-full">
-            <img src={pict5} />
+            <img src={pict5} className="block w-full h-full object-cover" />
             <div className="absolute bottom-0 w-full h-50 bg-black/70 p-5">
               <h2 className="text-[#E3682B] font-bold text-2xl text-start">
                 Mapping
@@ -196,9 +196,9 @@ export default function Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
           <div className="relative h-full w-full">
-            <img src={pict4} />
+            <img src={pict4} className="block w-full h-full object-cover" />
             <div className="absolute bottom-0 w-full h-50 bg-black/70 p-5">
               <h2 className="text-[#E3682B] font-bold text-2xl text-start">
                 Environment
@@ -230,9 +230,9 @@ export default function Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
           <div className="relative h-full w-full">
-            <img src={pict3} />
+            <img src={pict3} className="block w-full h-full object-cover" />
             <div className="absolute bottom-0 w-full h-50 bg-black/70 p-5">
               <h2 className="text-[#E3682B] font-bold text-2xl text-start">
                 Management
@@ -264,9 +264,9 @@ export default function Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
           <div className="relative h-full w-full">
-            <img src={pict4} />
+            <img src={pict4} className="block w-full h-full object-cover" />
             <div className="absolute bottom-0 w-full h-50 bg-black/70 p-5">
               <h2 className="text-[#E3682B] font-bold text-2xl text-start">
                 Information Technology
@@ -298,9 +298,9 @@ export default function Slider() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
           <div className="relative h-full w-full">
-            <img src={pict2} />
+            <img src={pict2} className="block w-full h-full object-cover" />
             <div className="absolute bottom-0 w-full h-50 bg-black/70 p-5">
               <h2 className="text-[#E3682B] font-bold text-2xl text-start">
                 Project Management
