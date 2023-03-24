@@ -11,6 +11,8 @@ import LatestUpdate from "./LatestUpdate";
 import FeaturedProject from "./FeaturedProject";
 import Footer from "./Footer";
 
+import PdfViewer from "./PdfViewer";
+
 export {
   Navbar,
   Nav,
@@ -24,4 +26,5 @@ export {
   LatestUpdate,
   FeaturedProject,
   Footer,
+  PdfViewer,
 };

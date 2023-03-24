@@ -5,48 +5,44 @@ export const SidebarData = [
 
     subNav: [
       {
-        title: 'Mineral Exploration',
-        path: '/service/mineral-exploration',
+        title: 'Architecture',
+        path: '/service/architecture',
       },
       {
-        title: 'Mining Project Evaluation',
-        path: '/service/mining-project-evaluation',
+        title: 'Planning',
+        path: '/service/planning',
       },
       {
-        title: 'Environment, Community, and Mine Closure',
-        path: '/service/environment-community-and-mine-closure',
+        title: 'Engineering Consultant',
+        path: '/service/engineering-consultant',
       },
       {
-        title: 'Geology and Resources',
-        path: '/service/geology-and-resource',
+        title: 'Survey',
+        path: '/service/survey',
       },
       {
-        title: 'Mining Project Evaluation',
-        path: '/service/mining-project-evaluation',
+        title: 'Mapping',
+        path: '/service/mapping',
       },
       {
         title: 'Mine Engineering',
         path: '/service/mine-engineering',
       },
       {
-        title: 'Water Management',
-        path: '/service/water-management',
+        title: 'Environment',
+        path: '/service/environment',
       },
       {
-        title: 'Mine Waste Management',
-        path: '/service/mine-waste-management',
+        title: 'Management',
+        path: '/service/management',
       },
       {
-        title: 'Mining Geotechnics',
-        path: '/service/mining-geotechnics',
+        title: 'Information Technology',
+        path: '/service/information-technology',
       },
       {
-        title: 'Extractive Metallurgy and Mineral Processing',
-        path: '/service/extractive-metallurgy-and-mineral-processing',
-      },
-      {
-        title: 'Civil and Structural Engineering',
-        path: '/service/civil-and-structural-engineering',
+        title: 'Project Management',
+        path: '/service/project-management',
       },
     ]
   },

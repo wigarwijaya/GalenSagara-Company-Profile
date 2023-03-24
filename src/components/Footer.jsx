@@ -1,4 +1,5 @@
 import React from "react";
+import { companyLogo } from "../assets";
 
 const Footer = () => {
   return (
@@ -48,7 +49,8 @@ const Footer = () => {
       <div className="border-t border-gray-200">
         <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">
           <div className="inline-flex lg:ml-auto mt-0 w-full justify-center md:justify-start md:w-auto">
-            <h3 className="text-[#E3682B] cursor-pointer text-lg">GALENSAGARA</h3>
+            
+            <a href="#" className="flex"><img src={companyLogo} className="w-6 h-6 mr-2" /><p className="text-base text-[#E3682B]">GALEN SAGARA PERKASA</p></a>
           </div>
           <span className="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
             <a className="text-gray-500">

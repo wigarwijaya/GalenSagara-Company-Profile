@@ -6,6 +6,7 @@ import * as AiIcons from "react-icons/ai";
 import { SidebarData } from "../constants";
 import SubMenu from "./SubMenu";
 import { IconContext } from "react-icons/lib";
+import { companyLogo } from "../assets";
 
 const Nav = styled.div`
   background: #e4e4e4;
@@ -19,7 +20,7 @@ const Nav = styled.div`
 const CompanyIcon = styled(Link)`
   margin-left: 2rem;
   font-size: 2rem;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -61,7 +62,7 @@ const Sidebar = () => {
     <>
       <IconContext.Provider value={{ color: "#E3682B" }}>
         <Nav>
-          <CompanyIcon to="/"><p className="text-base text-[#E3682B]">GALENSAGARA</p></CompanyIcon>
+          <CompanyIcon to="/"><img src={companyLogo} className="w-6 h-6 mr-2"/><p className="text-base text-[#E3682B]">GALEN SAGARA PERKASA</p></CompanyIcon>
           <NavIcon to="#">
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>
