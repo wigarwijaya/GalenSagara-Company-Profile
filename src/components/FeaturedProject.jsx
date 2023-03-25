@@ -27,7 +27,7 @@ const FeaturedProject = () => {
           </h1>
         </div>
         <div className="flex flex-wrap">
-          <div className="h-[350px] w-[full] mx-auto relative my-4">
+          <div className="h-[350px] w-full mx-auto relative my-4">
             <div
               onMouseEnter={onMouseEnter}
               onMouseLeave={onMouseLeave}

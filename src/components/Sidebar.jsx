@@ -10,6 +10,9 @@ import { companyLogo } from "../assets";
 
 const Nav = styled.div`
   background: #e4e4e4;
+  position: sticky;
+  top: 0;
+  z-index: 100;
   height: 60px;
   width: 100vw;
   display: flex;

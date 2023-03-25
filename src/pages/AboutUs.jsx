@@ -7,6 +7,11 @@ const AboutUs = () => {
   return (
     <div className="container">
       <div className="p-6">
+        <div className="flex flex-col mb-6">
+          <div className="h-1 bg-gray-200 rounded overflow-hidden">
+            <div className="w-1/2 h-full bg-[#E3682B]"></div>
+          </div>
+        </div>
         <div className="flex-grow">
           <h2 className="tracking-widest text-xs title-font font-medium text-[#E3682B] mb-1">
             COMPANY HISTORY:

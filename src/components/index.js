@@ -23,7 +23,6 @@ export {
   Dropdown,
   Dropdowns,
   Dropd,
-  Service,
   LatestUpdate,
   FeaturedProject,
   Clients,
