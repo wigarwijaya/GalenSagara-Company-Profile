@@ -66,33 +66,6 @@ export const SidebarData = [
     ]
   },
   {
-    title: 'Knowledge Center',
-    path: '#',
-
-    subNav: [
-      {
-        title: 'Publications',
-        path: '/knowledge-center/publication',
-      },
-      {
-        title: 'Videos',
-        path: '/knowledge-center/videos',
-      },
-      {
-        title: 'Brochures',
-        path: '/knowledge-center/brochures',
-      },
-      {
-        title: 'Training',
-        path: '/knowledge-center/training',
-      }
-    ]
-  },
-  {
-    title: 'News and Events',
-    path: '/news-and-events',
-  },
-  {
     title: 'About Us',
     path: '/about-us',
   },
@@ -100,10 +73,6 @@ export const SidebarData = [
     title: 'Contact Us',
     path: '/contact-us',
   },
-  {
-    title: 'Career',
-    path: '/career',
-  }
 ];
 
 export const navLinks = [

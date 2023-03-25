@@ -53,7 +53,7 @@ const FeaturedProject = () => {
                   <div className="flex items-center flex-wrap ">
                     <a
                       href="#nav"
-                      className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                      className="text-[#E3682B] inline-flex items-center md:mb-2 lg:mb-0"
                     >
                       Learn More
                       <svg

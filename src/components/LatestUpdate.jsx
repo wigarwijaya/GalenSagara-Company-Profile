@@ -24,7 +24,7 @@ const LatestUpdate = () => {
                 src={pict1}
                 alt="blog"
               />
-              <div className="p-6 absolute bottom-0 bg-white opacity-50">
+              <div className="p-6 absolute bottom-0 bg-white/70">
                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                   CATEGORY
                 </h2>
@@ -35,7 +35,7 @@ const LatestUpdate = () => {
                 <div className="flex items-center flex-wrap ">
                   <a
                     href="#nav"
-                    className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    className="text-[#E3682B] inline-flex items-center md:mb-2 lg:mb-0"
                   >
                     Learn More
                     <svg
@@ -62,7 +62,7 @@ const LatestUpdate = () => {
                 src={pict2}
                 alt="blog"
               />
-              <div className="p-6 absolute bottom-0 bg-white opacity-50">
+              <div className="p-6 absolute bottom-0 bg-white/70">
                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                   CATEGORY
                 </h2>
@@ -73,7 +73,7 @@ const LatestUpdate = () => {
                 <div className="flex items-center flex-wrap ">
                   <a
                     href="#nav"
-                    className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    className="text-[#E3682B] inline-flex items-center md:mb-2 lg:mb-0"
                   >
                     Learn More
                     <svg
@@ -100,7 +100,7 @@ const LatestUpdate = () => {
                 src={pict3}
                 alt="blog"
               />
-              <div className="p-6 absolute bottom-0 bg-white opacity-50">
+              <div className="p-6 absolute bottom-0 bg-white/70">
                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                   CATEGORY
                 </h2>
@@ -111,7 +111,7 @@ const LatestUpdate = () => {
                 <div className="flex items-center flex-wrap ">
                   <a
                     href="#nav"
-                    className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0"
+                    className="text-[#E3682B] inline-flex items-center md:mb-2 lg:mb-0"
                   >
                     Learn More
                     <svg
