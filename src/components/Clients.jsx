@@ -1,7 +1,18 @@
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { pict1, pict2, pict3, pict4, pict5 } from "../assets";
+import {
+  coaBali,
+  kemenATR,
+  kemendagri,
+  kemenhub,
+  kemenkumham,
+  kemenli,
+  kemkominfo,
+  kotaBogor,
+  jawaBarat,
+  tommyUtama,
+} from "../assets";
 
 // Import Swiper styles
 import "swiper/css";
@@ -14,75 +25,103 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination } from "swiper";
 
 const Clients = () => {
-
   return (
-    <div>
-      <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Autoplay, Pagination]}
-        className="w-[100vw] h-60"
-      >
-        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
-          <div className="relative h-full w-full">
-            <img src={pict1} className="block w-full h-full object-cover" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
-          <div className="relative h-full w-full">
-            <img src={pict2} className="block w-full h-full object-cover" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
-          <div className="relative h-full w-full">
-            <img src={pict3} className="block w-full h-full object-cover" />
-        
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
-          <div className="relative h-full w-full">
-            <img src={pict4} className="block w-full h-full object-cover" />
-        
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
-          <div className="relative h-full w-full">
-            <img src={pict5} className="block w-full h-full object-cover" />
-        
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
-          <div className="relative h-full w-full">
-            <img src={pict4} className="block w-full h-full object-cover" />
-        
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
-          <div className="relative h-full w-full">
-            <img src={pict3} className="block w-full h-full object-cover" />
-        
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
-          <div className="relative h-full w-full">
-            <img src={pict4} className="block w-full h-full object-cover" />
-        
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
-          <div className="relative h-full w-full">
-            <img src={pict2} className="block w-full h-full object-cover" />
-        
-          </div>
-        </SwiperSlide>
-      </Swiper>
+    <div className="container mx-auto px-5 py-10 flex flex-col justify-center items-center">
+      <div className="flex flex-col w-full">
+        <h1 className="sm:text-3xl text-2xl text-center font-medium title-font text-gray-900">
+          Our Partners
+        </h1>
+      </div>
+      <div>
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Autoplay, Pagination]}
+          className="w-[100vw] h-60"
+        >
+          <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
+            <div className="relative w-40">
+              <img src={coaBali} className="block w-full h-full object-cover" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
+            <div className="relative w-40">
+              <img
+                src={kemenATR}
+                className="block w-full h-full object-cover"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
+            <div className="relative w-40">
+              <img
+                src={kemendagri}
+                className="block w-full h-full object-cover"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
+            <div className="relative w-40">
+              <img
+                src={kemenhub}
+                className="block w-full h-full object-cover"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
+            <div className="relative w-40">
+              <img
+                src={kemenkumham}
+                className="block w-full h-full object-cover"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
+            <div className="relative w-40">
+              <img src={kemenli} className="block w-full h-full object-cover" />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
+            <div className="relative w-40">
+              <img
+                src={kemkominfo}
+                className="block w-full h-full object-cover"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
+            <div className="relative w-40">
+              <img
+                src={kotaBogor}
+                className="block w-full h-full object-cover"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
+            <div className="relative w-40">
+              <img
+                src={jawaBarat}
+                className="block w-full h-full object-cover"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
+            <div className="relative w-56">
+              <img
+                src={tommyUtama}
+                className="block w-full h-full object-cover"
+              />
+            </div>
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </div>
   );
 };
