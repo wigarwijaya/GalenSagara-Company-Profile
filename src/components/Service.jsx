@@ -1,5 +1,5 @@
 import React from "react";
-import { pict1, pict2, pict3, pict4, pict5 } from "../assets";
+import { pict1, pict2, pict3, pict4, pict5, pict6, pict7, pict8, pict9 } from "../assets";
 
 const Service = () => {
   return (
@@ -146,7 +146,7 @@ const Service = () => {
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
-                src={pict1}
+                src={pict6}
               />
               <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full">
                 <h1 className="title-font text-lg font-medium text-white">
@@ -171,7 +171,7 @@ const Service = () => {
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
-                src={pict1}
+                src={pict7}
               />
               <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full">
                 <h1 className="title-font text-lg font-medium text-white">
@@ -196,7 +196,7 @@ const Service = () => {
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
-                src={pict1}
+                src={pict8}
               />
               <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full">
                 <h1 className="title-font text-lg font-medium text-white">
@@ -221,7 +221,7 @@ const Service = () => {
               <img
                 alt="gallery"
                 className="absolute inset-0 w-full h-full object-cover object-center"
-                src={pict1}
+                src={pict9}
               />
               <div className="absolute flex flex-col justify-between py-4 px-4 h-full w-full">
                 <h1 className="title-font text-lg font-medium text-white">

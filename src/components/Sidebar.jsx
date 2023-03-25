@@ -38,10 +38,10 @@ const NavIcon = styled(Link)`
 const SidebarNav = styled.nav`
   background: #EDEDED;
   width: 100vw;
-  ${'' /* height: 100vh; */}
+  height: 100vh;
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
   transition: 350ms;

@@ -28,13 +28,13 @@ const SidebarLabel = styled.span`
 
 const DropdownLink = styled(Link)`
   background: #414757;
-  height: 40px;
+  height: 60px;
   padding-left: 3rem;
   display: flex;
   align-items: center;
   text-decoration: none;
   color: #f5f5f5;
-  font-size: 14px;
+  font-size: 18px;
 
   &:hover {
     background: #E3682B;

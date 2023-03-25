@@ -1,68 +1,21 @@
 export const SidebarData = [
   {
-    title: 'Service',
+    title: 'Home',
+    path: '/',
+  },
+  {
+    title: 'Services',
     path: '#',
 
     subNav: [
       {
-        title: 'Architecture',
-        path: '/service/architecture',
+        title: 'Construction Planning Service',
+        path: '/services/construction-planning',
       },
       {
-        title: 'Planning',
-        path: '/service/planning',
+        title: 'Non-Construction Planning Service',
+        path: '/services/non-construction-planning',
       },
-      {
-        title: 'Engineering Consultant',
-        path: '/service/engineering-consultant',
-      },
-      {
-        title: 'Survey',
-        path: '/service/survey',
-      },
-      {
-        title: 'Mapping',
-        path: '/service/mapping',
-      },
-      {
-        title: 'Environment',
-        path: '/service/environment',
-      },
-      {
-        title: 'Management',
-        path: '/service/management',
-      },
-      {
-        title: 'Information Technology',
-        path: '/service/information-technology',
-      },
-      {
-        title: 'Project Management',
-        path: '/service/project-management',
-      },
-    ]
-  },
-  {
-    title: 'Consultants',
-    path: '/consultants',
-  },
-  {
-    title: 'Projects',
-    path: '/projects',
-  },
-  {
-    title: 'Products',
-    path: '#',
-
-    subNav: [
-      {
-        title: 'Ventilation Software',
-        path: '/products/ventilation-software',
-      },
-      {
-        title: 'EasyMineXR',
-        path: '/products/easy-mine-xr',
-      }
     ]
   },
   {
