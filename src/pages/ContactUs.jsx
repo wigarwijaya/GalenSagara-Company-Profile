@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const ContactUs = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section className="text-gray-600 body-font relative">
       <div className="container p-6 flex-wrap">

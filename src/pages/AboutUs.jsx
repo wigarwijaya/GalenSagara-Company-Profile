@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { PdfViewer } from "../components";
 import { GoPrimitiveDot } from "react-icons/go";
 import { companyProfile, ISO1, ISO2, ISO3 } from "../assets";
 
 const AboutUs = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <div className="container">
       <div className="p-6">

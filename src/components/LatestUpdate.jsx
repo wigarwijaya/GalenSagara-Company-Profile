@@ -1,5 +1,6 @@
 import React from "react";
 import { text } from "../constants";
+import { Link } from "react-router-dom";
 import { pict1, pict2, pict3, pict4, pict5 } from "../assets";
 
 const LatestUpdate = () => {
@@ -33,12 +34,12 @@ const LatestUpdate = () => {
                   CATEGORY
                 </h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                Construction Planning Service
+                  Construction Planning Service
                 </h1>
                 <p className="leading-relaxed mb-3">{text.text1}</p>
                 <div className="flex items-center flex-wrap ">
-                  <a
-                    href="/services/construction-planning"
+                  <Link
+                    to="/services/construction-planning"
                     className="text-[#E3682B] inline-flex items-center md:mb-2 lg:mb-0"
                   >
                     Learn More
@@ -54,7 +55,7 @@ const LatestUpdate = () => {
                       <path d="M5 12h14"></path>
                       <path d="M12 5l7 7-7 7"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -71,12 +72,12 @@ const LatestUpdate = () => {
                   CATEGORY
                 </h2>
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
-                Non-Construction Planning Service
+                  Non-Construction Planning Service
                 </h1>
                 <p className="leading-relaxed mb-3">{text.text2}</p>
                 <div className="flex items-center flex-wrap ">
-                  <a
-                    href="/services/non-construction-planning"
+                <Link
+                    to="/services/non-construction-planning"
                     className="text-[#E3682B] inline-flex items-center md:mb-2 lg:mb-0"
                   >
                     Learn More
@@ -92,12 +93,11 @@ const LatestUpdate = () => {
                       <path d="M5 12h14"></path>
                       <path d="M12 5l7 7-7 7"></path>
                     </svg>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
-          
         </div>
       </div>
     </section>
