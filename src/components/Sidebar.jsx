@@ -63,9 +63,9 @@ const Sidebar = () => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#E3682B" }}>
+      <IconContext.Provider value={{ color: "#1b4332" }}>
         <Nav>
-          <CompanyIcon to="/"><img src={companyLogo} className="w-6 h-6 mr-2"/><p className="text-base text-[#E3682B]">GALEN SAGARA PERKASA</p></CompanyIcon>
+          <CompanyIcon to="/"><img src={companyLogo} className="w-6 h-6 mr-2"/><p className="text-base font-medium text-primary">GALEN SAGARA PERKASA</p></CompanyIcon>
           <NavIcon to="#">
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>

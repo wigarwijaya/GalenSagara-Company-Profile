@@ -5,39 +5,39 @@ const Footer = () => {
   return (
     <div className="text-gray-600 body-font">
       <div className="border-t border-gray-200">
-        <div className="container px-5 py-8 flex flex-wrap mx-auto items-start">
-          <div className="inline-flex lg:ml-auto mt-0 w-full justify-start md:justify-start md:w-auto px-6">
+        <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">
+          <div className="inline-flex lg:ml-auto mt-0 w-full justify-center md:justify-start md:w-auto px-6">
             <a href="#" className="flex">
               <img src={companyLogo} className="w-6 h-6 mr-2" />
-              <p className="text-base text-[#E3682B]">GALEN SAGARA PERKASA</p>
+              <p className="text-base text-primary">GALEN SAGARA PERKASA</p>
             </a>
           </div>
 
-          <div className="lg:w-1/2 p-6 w-full">
-            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+          <div className="lg:w-1/2 p-6 w-full justify-center">
+            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs text-center">
               ADDRESS
             </h2>
-            <p className="">Jl. Martanegara No. 56, Bandung</p>
-            <h2 className="mt-1 title-font font-semibold text-gray-900 tracking-widest text-xs">
+            <p className="text-center">Jl. Martanegara No. 56, Bandung</p>
+            <h2 className="text-center mt-1 title-font font-semibold text-gray-900 tracking-widest text-xs">
               OFFICE ADDRESS
             </h2>
-            <p className="">Jl. Guntur Madu No. 6A, Bandung</p>
-            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+            <p className="text-center">Jl. Guntur Madu No. 6A, Bandung</p>
+            <h2 className="text-center title-font font-semibold text-gray-900 tracking-widest text-xs">
               EMAIL
             </h2>
             <button
-              className="text-[#E3682B] leading-relaxed"
+              className="text-center w-full text-primary leading-relaxed"
               onClick={() => (window.location = "mailto:galensagara@gmail.com")}
             >
               galensagara@gmail.com
             </button>
-            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
+            <h2 className="text-center title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
               PHONE
             </h2>
-            <p className="leading-relaxed">+62 8128 0807 385</p>
+            <p className="text-center leading-relaxed">+62 8128 0807 385</p>
           </div>
 
-          <span className="inline-flex lg:ml-auto lg:mt-0 w-full justify-start px-6 md:justify-start md:w-auto">
+          <span className="inline-flex lg:ml-auto lg:mt-0 w-full justify-center px-6 md:justify-start md:w-auto">
             <a className="text-gray-500">
               <svg
                 fill="currentColor"
@@ -71,12 +71,12 @@ const Footer = () => {
           </span>
         </div>
       </div>
-      <div className="bg-[#E4E4E4]">
+      <div className="bg-primary">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-gray-500 text-sm text-center sm:text-left">
+          <p className="text-secondary text-sm text-center sm:text-left">
             © Galen Sagara 2023 —
           </p>
-          <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">
+          <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-secondary text-sm">
             All Rights Reserved
           </span>
         </div>

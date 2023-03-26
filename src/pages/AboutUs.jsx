@@ -14,12 +14,12 @@ const AboutUs = () => {
       <div className="p-6">
         <div className="flex flex-col mb-6">
           <div className="h-1 bg-gray-200 rounded overflow-hidden">
-            <div className="w-1/2 h-full bg-[#E3682B]"></div>
+            <div className="w-1/2 h-full bg-primary"></div>
           </div>
         </div>
         <div className="flex-grow">
           <div className="h-full border-gray-200 border p-4 rounded-lg mb-4">
-            <h2 className="tracking-widest text-xs title-font font-medium text-[#E3682B] mb-1">
+            <h2 className="tracking-widest text-xs title-font font-medium text-primary mb-1">
               COMPANY HISTORY:
             </h2>
             <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
@@ -33,7 +33,7 @@ const AboutUs = () => {
         </div>
         <div className="flex-grow">
           <div className="h-full border-gray-200 border p-4 rounded-lg mb-5">
-            <h2 className="tracking-widest text-xs title-font font-medium text-[#E3682B] mb-1">
+            <h2 className="tracking-widest text-xs title-font font-medium text-primary mb-1">
               BECOME:
             </h2>
             <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
@@ -69,7 +69,7 @@ const AboutUs = () => {
           Vision and Mission of PT. GALEN SAGARA PERKASA:
         </h3>
         <div className="flex flex-row justify-start mb-2">
-          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-[#E3682B]">
+          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-primary">
             <GoPrimitiveDot />
           </span>
           <p className="inline-block align-top leading-none text-gray-800">
@@ -78,7 +78,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="flex flex-row justify-start mb-2">
-          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-[#E3682B]">
+          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-primary">
             <GoPrimitiveDot />
           </span>
           <p className="inline-block align-top leading-none text-gray-800">
@@ -89,7 +89,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="flex flex-row justify-start mb-2">
-          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-[#E3682B]">
+          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-primary">
             <GoPrimitiveDot />
           </span>
           <p className="inline-block align-top leading-none text-gray-800">
@@ -98,7 +98,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="flex flex-row justify-start mb-2">
-          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-[#E3682B]">
+          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-primary">
             <GoPrimitiveDot />
           </span>
           <p className="inline-block align-top leading-none text-gray-800">
@@ -107,7 +107,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="flex flex-row justify-start mb-2">
-          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-[#E3682B]">
+          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-primary">
             <GoPrimitiveDot />
           </span>
           <p className="inline-block align-top leading-none text-gray-800">
@@ -115,7 +115,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="flex flex-row justify-start mb-2">
-          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-[#E3682B]">
+          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-primary">
             <GoPrimitiveDot />
           </span>
           <p className="inline-block align-top leading-none text-gray-800">
@@ -124,7 +124,7 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="flex flex-row justify-start mb-2">
-          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-[#E3682B]">
+          <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-primary">
             <GoPrimitiveDot />
           </span>
           <p className="inline-block align-top leading-none text-gray-800">

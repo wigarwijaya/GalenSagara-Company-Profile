@@ -11,7 +11,7 @@ const ContactUs = () => {
       <div className="container p-6 flex-wrap">
         <div className="flex flex-col mb-6">
           <div className="h-1 bg-gray-200 rounded overflow-hidden">
-            <div className="w-4/5 h-full bg-[#E3682B]"></div>
+            <div className="w-4/5 h-full bg-primary"></div>
           </div>
         </div>
         <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
@@ -41,7 +41,7 @@ const ContactUs = () => {
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-[#E3682B] leading-relaxed" href="mailto:galensagara@gmail.com">
+              <a className="text-primary leading-relaxed" href="mailto:galensagara@gmail.com">
                 galensagara@gmail.com
               </a>
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
@@ -63,7 +63,7 @@ const ContactUs = () => {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-white rounded border border-gray-300 focus:border-[#E3682B] focus:ring-2 focus:ring-[#de936e] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-primary focus:ring-2 focus:ring-secondary text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
           <div className="relative mb-4">
@@ -74,7 +74,7 @@ const ContactUs = () => {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-white rounded border border-gray-300 focus:border-[#E3682B] focus:ring-2 focus:ring-[#de936e] text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-primary focus:ring-2 focus:ring-secondary text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
           <div className="relative mb-4">
@@ -84,7 +84,7 @@ const ContactUs = () => {
             <textarea
               id="message"
               name="message"
-              className="w-full bg-white rounded border border-gray-300 focus:border-[#E3682B] focus:ring-2 focus:ring-[#de936e] h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              className="w-full bg-white rounded border border-gray-300 focus:border-primary focus:ring-2 focus:ring-secondary h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             ></textarea>
           </div>
           <a

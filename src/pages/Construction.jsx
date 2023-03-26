@@ -13,7 +13,7 @@ const Construction = () => {
       <section id="construction-planning" className="mb-6">
         <div className="flex flex-col">
           <div className="h-1 bg-gray-200 rounded overflow-hidden">
-            <div className="w-1/3 h-full bg-[#E3682B]"></div>
+            <div className="w-1/3 h-full bg-primary"></div>
           </div>
           <div className="flex flex-wrap sm:flex-row flex-col py-6 mb-6">
             <h1 className="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-1 sm:mb-0">
