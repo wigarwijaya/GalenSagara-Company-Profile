@@ -13,29 +13,32 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="flex-grow">
-          <h2 className="tracking-widest text-xs title-font font-medium text-[#E3682B] mb-1">
-            COMPANY HISTORY:
-          </h2>
-          <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
-            PT. SAMADHI MANGKUBUMI
-          </h1>
-          <p className="leading-relaxed mb-5">
-            Established 29 Mei 2013 at Jl. Situ Cipanunjang No. 09 Bandung -
-            40265 Notary Public : Tahmid Tirtapradja, SH,Sp1
-          </p>
+          <div className="h-full border-gray-200 border p-4 rounded-lg mb-4">
+            <h2 className="tracking-widest text-xs title-font font-medium text-[#E3682B] mb-1">
+              COMPANY HISTORY:
+            </h2>
+            <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
+              PT. SAMADHI MANGKUBUMI
+            </h1>
+            <p className="leading-relaxed mb-5">
+              Established 29 Mei 2013 at Jl. Situ Cipanunjang No. 09 Bandung -
+              40265 Notary Public : Tahmid Tirtapradja, SH,Sp1
+            </p>
+          </div>
         </div>
         <div className="flex-grow">
-          <h2 className="tracking-widest text-xs title-font font-medium text-[#E3682B] mb-1">
-            BECOME:
-          </h2>
-          <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
-            PT. GALEN SAGARA PERKASA
-          </h1>
-          <p className="leading-relaxed">
-            Established 5 Maret 2018 at Jl. R.A.A. Martanegara No. 56 Bandung -
-            40264 Telp. 022 – 73518996 Notary Public : Harry Susanto, SH
-          </p>
-          <div className="flex items-center flex-wrap pb-5 mb-5 border-b-2 border-gray-100 mt-auto w-full"></div>
+          <div className="h-full border-gray-200 border p-4 rounded-lg mb-5">
+            <h2 className="tracking-widest text-xs title-font font-medium text-[#E3682B] mb-1">
+              BECOME:
+            </h2>
+            <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
+              PT. GALEN SAGARA PERKASA
+            </h1>
+            <p className="leading-relaxed">
+              Established 5 Maret 2018 at Jl. R.A.A. Martanegara No. 56 Bandung
+              - 40264 Telp. 022 – 73518996 Notary Public : Harry Susanto, SH
+            </p>
+          </div>
           <p className="leading-relaxed text-lg">
             <span className="text-xl">R</span>eferring to the Deed of
             Establishment of the Company No. 11 by Notary Tahmid Tirtapradja,
@@ -55,10 +58,11 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="flex items-center flex-wrap pb-5 mb-5 border-b-2 border-gray-100 mt-auto w-full"></div>
+
       <div className="p-6">
-        <p className="leading-relaxed text-lg mb-2">
+        <h3 className="sm:text-3xl text-xl font-medium title-font mb-4 text-gray-900">
           Vision and Mission of PT. GALEN SAGARA PERKASA:
-        </p>
+        </h3>
         <div className="flex flex-row justify-start mb-2">
           <span className="w-4 h-4 mr-2 inline-flex items-center justify-center text-[#E3682B]">
             <GoPrimitiveDot />
@@ -125,7 +129,63 @@ const AboutUs = () => {
         </div>
       </div>
       <div className="flex items-center flex-wrap pb-5 mb-5 border-b-2 border-gray-100 mt-auto w-full"></div>
-
+      <section className="text-gray-600 body-font">
+        <div className="p-6">
+          <div className="flex flex-col text-center w-full mb-4">
+            <h1 className="sm:text-3xl text-xl font-medium title-font mb-4 text-gray-900">
+              Commissioners And Directors
+            </h1>
+          </div>
+          <div className="flex flex-wrap -m-2">
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img
+                  alt="team"
+                  className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                  src="https://dummyimage.com/80x80"
+                />
+                <div className="flex-grow">
+                  <h2 className="text-gray-900 title-font font-medium">
+                    Taffan Muhammad Rizqi
+                  </h2>
+                  <p className="text-gray-500">Commissioner</p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img
+                  alt="team"
+                  className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                  src="https://dummyimage.com/84x84"
+                />
+                <div className="flex-grow">
+                  <h2 className="text-gray-900 title-font font-medium">
+                    Arief Rusman Kamil, SE
+                  </h2>
+                  <p className="text-gray-500">President Director</p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+                <img
+                  alt="team"
+                  className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4"
+                  src="https://dummyimage.com/88x88"
+                />
+                <div className="flex-grow">
+                  <h2 className="text-gray-900 title-font font-medium">
+                    Deni Muhammad Rasyid, S.I.Kom
+                  </h2>
+                  <p class="text-gray-500">Director</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="flex items-center flex-wrap pb-5 mb-5 border-b-2 border-gray-100 mt-auto w-full"></div>
       <div className="p-6">
         <div className="flex flex-col justify-center items-center p-6">
           <h2 className="text-center text-xs title-font font-medium text-black mb-1">

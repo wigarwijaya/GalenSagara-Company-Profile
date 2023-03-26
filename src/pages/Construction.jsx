@@ -1,4 +1,6 @@
 import React from "react";
+import { pict1, pict2, pict3, pict4, pict5, pict6, pict7, pict8, pict9, pict10, pict11, pict12, pict13, pict14 } from "../assets";
+
 
 const Construction = () => {
   return (
@@ -21,7 +23,7 @@ const Construction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1203x503"
+                src={pict11}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -42,7 +44,7 @@ const Construction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1204x504"
+                src={pict12}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -59,7 +61,7 @@ const Construction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1205x505"
+                src={pict10}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -77,7 +79,7 @@ const Construction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1205x505"
+                src={pict3}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -97,7 +99,7 @@ const Construction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1205x505"
+                src={pict14}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -118,7 +120,7 @@ const Construction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1205x505"
+                src={pict1}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -136,7 +138,7 @@ const Construction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1205x505"
+                src={pict13}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">

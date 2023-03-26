@@ -1,4 +1,6 @@
 import React from "react";
+import { pict1, pict2, pict3, pict4, pict5, pict6, pict7, pict8, pict9, pict10, pict11, pict12, pict13, pict14, pict15, pict16, pict17, pict18 } from "../assets";
+
 
 const NonConstruction = () => {
   return (
@@ -21,7 +23,7 @@ const NonConstruction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1203x503"
+                src={pict17}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -42,7 +44,7 @@ const NonConstruction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1204x504"
+                src={pict16}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -79,7 +81,7 @@ const NonConstruction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1205x505"
+                src={pict9}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -97,7 +99,7 @@ const NonConstruction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1205x505"
+                src={pict18}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -116,7 +118,7 @@ const NonConstruction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1205x505"
+                src={pict1}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -133,7 +135,7 @@ const NonConstruction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1205x505"
+                src={pict14}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">
@@ -157,7 +159,7 @@ const NonConstruction = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/1205x505"
+                src={pict15}
               />
             </div>
             <h2 className="text-xl font-medium title-font text-gray-900 mt-5">

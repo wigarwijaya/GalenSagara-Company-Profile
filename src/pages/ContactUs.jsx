@@ -36,7 +36,7 @@ const ContactUs = () => {
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-[#E3682B] leading-relaxed">
+              <a className="text-[#E3682B] leading-relaxed" href="mailto:galensagara@gmail.com">
                 galensagara@gmail.com
               </a>
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">

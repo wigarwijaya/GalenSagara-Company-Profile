@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { pict1, pict2, pict3, pict4, pict5, pict6, pict7, pict8, pict9 } from "../assets";
+import { pict1, pict2, pict3, pict4, pict5, pict6, pict7, pict8, pict9, pict15 } from "../assets";
 
 // Import Swiper styles
 import "swiper/css";
@@ -72,7 +72,7 @@ export default function Slider() {
         </SwiperSlide>
         <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
           <div className="relative h-full w-full">
-            <img src={pict4} className="block w-full h-full object-cover" />
+            <img src={pict15} className="block w-full h-full object-cover" />
             <div className="absolute bottom-0 w-full h-50 bg-black/70 p-5">
               <h2 className="text-[#E3682B] font-bold text-2xl text-start">
                 Survey

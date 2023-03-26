@@ -1,16 +1,15 @@
 import React from "react";
 import { text } from "../constants";
 import { pict1, pict2, pict3, pict4, pict5 } from "../assets";
-// import { Link } from "react-router-dom";
 
 const LatestUpdate = () => {
   const truncate = (str) => {
-    return str.length > 10 ? str.substring(0, 50) + "..." : str;
+    return str.length > 10 ? str.substring(0, 90) + "..." : str;
   };
 
   return (
     <section className="text-gray-600 body-font">
-      <div className="container mx-auto px-5 py-10">
+      <div className="container mx-auto px-5 pt-10">
         <div className="flex flex-col w-full">
           <h1 className="sm:text-3xl text-2xl text-start font-medium title-font text-gray-900">
             Services
@@ -26,7 +25,7 @@ const LatestUpdate = () => {
             <div className="h-full border-2 border-gray-200 border-opacity-60 overflow-hidden">
               <img
                 className="h-full w-full object-cover object-center"
-                src={pict1}
+                src={pict3}
                 alt="blog"
               />
               <div className="p-6 absolute bottom-0 bg-white/70">
@@ -36,7 +35,7 @@ const LatestUpdate = () => {
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                 Construction Planning Service
                 </h1>
-                <p className="leading-relaxed mb-3">{truncate(text.text1)}</p>
+                <p className="leading-relaxed mb-3">{text.text1}</p>
                 <div className="flex items-center flex-wrap ">
                   <a
                     href="/services/construction-planning"
@@ -64,7 +63,7 @@ const LatestUpdate = () => {
             <div className="h-full border-2 border-gray-200 border-opacity-60 overflow-hidden">
               <img
                 className="h-full w-full object-cover object-center"
-                src={pict2}
+                src={pict1}
                 alt="blog"
               />
               <div className="p-6 absolute bottom-0 bg-white/70">
@@ -74,7 +73,7 @@ const LatestUpdate = () => {
                 <h1 className="title-font text-lg font-medium text-gray-900 mb-3">
                 Non-Construction Planning Service
                 </h1>
-                <p className="leading-relaxed mb-3">{truncate(text.text2)}</p>
+                <p className="leading-relaxed mb-3">{text.text2}</p>
                 <div className="flex items-center flex-wrap ">
                   <a
                     href="/services/non-construction-planning"

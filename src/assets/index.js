@@ -7,6 +7,17 @@ import pict6 from "./pict6.jpg";
 import pict7 from "./pict7.jpg";
 import pict8 from "./pict8.jpg";
 import pict9 from "./pict9.jpg";
+import pict10 from "./pict10.jpg";
+import pict11 from "./pict11.jpg";
+import pict12 from "./pict12.jpg";
+import pict13 from "./pict13.jpg";
+import pict14 from "./pict14.jpg";
+import pict15 from "./pict15.jpg";
+import pict16 from "./pict16.jpg";
+import pict17 from "./pict17.jpg";
+import pict18 from "./pict18.jpg";
+import pict19 from "./pict19.jpg";
+import pict20 from "./pict20.jpg";
 import companyProfile from "./companyProfile.pdf"
 import ISO1 from "./ISO_9001_2015.pdf"
 import ISO2 from "./ISO_14001_2015.pdf"
@@ -33,6 +44,17 @@ export {
     pict7,
     pict8,
     pict9,
+    pict10,
+    pict11,
+    pict12,
+    pict13,
+    pict14,
+    pict15,
+    pict16,
+    pict17,
+    pict18,
+    pict19,
+    pict20,
     companyProfile,
     ISO1,
     ISO2,

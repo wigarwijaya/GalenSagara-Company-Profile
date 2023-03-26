@@ -88,7 +88,6 @@ export const navLang = [
 ];
 
 export const text = {
-  text1: "First photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat",
-  text2: "Second photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat",
-  text3: "Third photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat",
+  text1: "Transform your vision into a reality with our comprehensive construction planning services, tailored to meet your unique project needs.",
+  text2: "Maximize your business potential with our expert non-construction planning services, designed to optimize operations, streamline processes, and drive success.",
 }

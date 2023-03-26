@@ -4,55 +4,40 @@ import { companyLogo } from "../assets";
 const Footer = () => {
   return (
     <div className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto hidden">
-        <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
-          <div className="lg:w-1/6 md:w-1/2 w-full px-4 hidden">
-            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              CATEGORIES
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">First Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-              </li>
-            </nav>
-          </div>
-          <div className="lg:w-1/6 md:w-1/2 w-full px-4 hidden">
-            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              CATEGORIES
-            </h2>
-            <nav className="list-none mb-10">
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">First Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Second Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Third Link</a>
-              </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Fourth Link</a>
-              </li>
-            </nav>
-          </div>
-        </div>
-      </div>
       <div className="border-t border-gray-200">
-        <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">
-          <div className="inline-flex lg:ml-auto mt-0 w-full justify-center md:justify-start md:w-auto">
-            
-            <a href="#" className="flex"><img src={companyLogo} className="w-6 h-6 mr-2" /><p className="text-base text-[#E3682B]">GALEN SAGARA PERKASA</p></a>
+        <div className="container px-5 py-8 flex flex-wrap mx-auto items-start">
+          <div className="inline-flex lg:ml-auto mt-0 w-full justify-start md:justify-start md:w-auto px-6">
+            <a href="#" className="flex">
+              <img src={companyLogo} className="w-6 h-6 mr-2" />
+              <p className="text-base text-[#E3682B]">GALEN SAGARA PERKASA</p>
+            </a>
           </div>
-          <span className="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
+
+          <div className="lg:w-1/2 p-6 w-full">
+            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+              ADDRESS
+            </h2>
+            <p className="">Jl. Martanegara No. 56, Bandung</p>
+            <h2 className="mt-1 title-font font-semibold text-gray-900 tracking-widest text-xs">
+              OFFICE ADDRESS
+            </h2>
+            <p className="">Jl. Guntur Madu No. 6A, Bandung</p>
+            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
+              EMAIL
+            </h2>
+            <button
+              className="text-[#E3682B] leading-relaxed"
+              onClick={() => (window.location = "mailto:galensagara@gmail.com")}
+            >
+              galensagara@gmail.com
+            </button>
+            <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
+              PHONE
+            </h2>
+            <p className="leading-relaxed">+62 8128 0807 385</p>
+          </div>
+
+          <span className="inline-flex lg:ml-auto lg:mt-0 w-full justify-start px-6 md:justify-start md:w-auto">
             <a className="text-gray-500">
               <svg
                 fill="currentColor"
@@ -65,18 +50,7 @@ const Footer = () => {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a className="ml-3 text-gray-500">
-              <svg
-                fill="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                className="w-5 h-5"
-                viewBox="0 0 24 24"
-              >
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-              </svg>
-            </a>
+            
             <a className="ml-3 text-gray-500">
               <svg
                 fill="currentColor"
