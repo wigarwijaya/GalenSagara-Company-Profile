@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { pict1, pict2, pict3, pict4, pict5, pict6, pict7, pict8, pict9, pict10, pict11, pict12, pict13, pict14, pict15, pict16, pict17, pict18 } from "../assets";
+import { pict1, pict9, pict14, pict15, pict16, pict17, pict18 } from "../assets";
 
 
 const NonConstruction = () => {

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import styled from "styled-components";
 import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
@@ -7,53 +6,6 @@ import { SidebarData } from "../constants";
 import SubMenu from "./SubMenu";
 import { IconContext } from "react-icons/lib";
 import { companyLogo } from "../assets";
-
-const Nav = styled.div`
-  background: #e4e4e4;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  height: 60px;
-  width: 100vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`;
-
-const CompanyIcon = styled(Link)`
-  margin-left: 2rem;
-  font-size: 2rem;
-  height: 60px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-`;
-
-const NavIcon = styled(Link)`
-  margin-right: 2rem;
-  font-size: 2rem;
-  height: 60px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-`;
-
-const SidebarNav = styled.nav`
-  background: #EDEDED;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  top: 0;
-  left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
-  transition: 350ms;
-  z-index: 10;
-`;
-
-const SidebarWrap = styled.div`
-  width: 100%;
-`;
 
 const Sidebar = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -64,22 +16,50 @@ const Sidebar = () => {
   return (
     <>
       <IconContext.Provider value={{ color: "#1b4332" }}>
-        <Nav>
-          <CompanyIcon to="/"><img src={companyLogo} className="w-6 h-6 mr-2"/><p className="text-base font-medium text-primary">GALEN SAGARA PERKASA</p></CompanyIcon>
-          <NavIcon to="#">
+        <div className="flex justify-between items-center sticky top-0 z-20 h-[60px] w-screen bg-[#e4e4e4]">
+          <Link
+            to="/"
+            onClick={closeMobileMenu}
+            className="flex justify-center items-center ml-8 text-2xl h-[60px]"
+          >
+            <img src={companyLogo} className="w-6 h-6 mr-2" />
+            <p className="text-base font-medium text-primary">
+              GALEN SAGARA PERKASA
+            </p>
+          </Link>
+          {!sidebar ? 
+          (<Link
+            to="#"
+            className="flex justify-end items-center h-[60px] text-2xl mr-8"
+          >
             <FaIcons.FaBars onClick={showSidebar} />
-          </NavIcon>
-        </Nav>
-        <SidebarNav sidebar={sidebar}>
-          <SidebarWrap>
-            <NavIcon to="#">
-              <AiIcons.AiOutlineClose onClick={showSidebar} />
-            </NavIcon>
-            {SidebarData.map((item, index) => {
-              return <SubMenu close={closeMobileMenu} item={item} key={index} />;
-            })}
-          </SidebarWrap>
-        </SidebarNav>
+          </Link>) :
+          (<Link
+                to="#"
+                className="flex justify-end items-center h-[60px] text-2xl mr-8"
+              >
+                <AiIcons.AiOutlineClose onClick={showSidebar} />
+              </Link>)
+          }
+        </div>
+        {sidebar && (
+          <nav
+            className={`bg-[#EDEDED] flex justify-center fixed w-screen h-screen top-0 ${( sidebar ) => sidebar ? "left-0" : "-left-full"} z-10 sidebar`}>
+            <div className="w-full">
+              <Link
+                to="#"
+                className="flex justify-end items-center h-[60px] text-2xl mr-8"
+              >
+                <AiIcons.AiOutlineClose onClick={showSidebar} />
+              </Link>
+              {SidebarData.map((item, index) => {
+                return (
+                  <SubMenu close={closeMobileMenu} item={item} key={index} />
+                );
+              })}
+            </div>
+          </nav>
+        )}
       </IconContext.Provider>
     </>
   );

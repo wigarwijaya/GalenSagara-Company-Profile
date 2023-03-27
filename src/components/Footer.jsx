@@ -26,7 +26,7 @@ const Footer = () => {
               EMAIL
             </h2>
             <button
-              className="text-center w-full text-primary leading-relaxed"
+              className="text-center w-full underline text-primary leading-relaxed"
               onClick={() => (window.location = "mailto:galensagara@gmail.com")}
             >
               galensagara@gmail.com
@@ -74,7 +74,7 @@ const Footer = () => {
       <div className="bg-primary">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-secondary text-sm text-center sm:text-left">
-            © Galen Sagara 2023 —
+            © Galen Sagara Perkasa 2023 —
           </p>
           <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-secondary text-sm">
             All Rights Reserved

@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { pict1, pict2, pict3, pict4, pict5, pict6, pict7, pict8, pict9, pict15 } from "../assets";
+import { pict1, pict2, pict3, pict5, pict6, pict7, pict8, pict9, pict15 } from "../assets";
 
 // Import Swiper styles
 import "swiper/css";

@@ -1,7 +1,7 @@
 import React from "react";
 import { text } from "../constants";
 import { Link } from "react-router-dom";
-import { pict1, pict2, pict3, pict4, pict5 } from "../assets";
+import { pict1, pict3 } from "../assets";
 
 const LatestUpdate = () => {
   const truncate = (str) => {

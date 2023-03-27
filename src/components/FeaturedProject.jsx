@@ -1,12 +1,10 @@
 import React, { useState } from "react";
-import { text } from "../constants";
 import { pict20 } from "../assets";
 import { PdfViewer } from ".";
 import { companyProfile } from "../assets";
 
 const FeaturedProject = () => {
   const [enter, setEnter] = useState(false);
-  //   const [service, setService] = useState(false);
 
   const onMouseEnter = () => {
     setEnter(true);
