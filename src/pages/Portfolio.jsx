@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import { Listbox, Transition } from "@headlessui/react";
 import { ChevronUpDownIcon } from "@heroicons/react/20/solid";
 import { companyProfile } from "../assets";
@@ -10,6 +10,10 @@ const projects = [{ year: "2022" }, { year: "2021" }, { year: "2020" }];
 
 const Portfolio = () => {
   const [selected, setSelected] = useState(projects[0]);
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <div className="container mx-auto">

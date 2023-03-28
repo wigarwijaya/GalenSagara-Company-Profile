@@ -1,9 +1,5 @@
 export const SidebarData = [
   {
-    title: 'Home',
-    path: '/',
-  },
-  {
     title: 'Services',
     path: '#',
 
@@ -29,52 +25,6 @@ export const SidebarData = [
   {
     title: 'Contact Us',
     path: '/contact-us',
-  },
-];
-
-export const navLinks = [
-  {
-    id: "link-1",
-    title: "Services",
-    path: "/services",
-  },
-  {
-    id: "link-2",
-    title: "Consultants",
-    path: "/consultants",
-  },
-  {
-    id: "link-3",
-    title: "Projects",
-    path: "/projects",
-  },
-  {
-    id: "link-4",
-    title: "Products",
-    path: "/products",
-  },
-  {
-    id: "link-5",
-    title: "Knowledge",
-    path: "/knowledge-center",
-  },
-  {
-    id: "link-6",
-    title: "News",
-    path: "/news-and-events",
-  },
-];
-
-export const productLinks = [
-  {
-    id: "link-1",
-    title: "Ventilation Software",
-    path: "/ventilation-software",
-  },
-  {
-    id: "link-2",
-    title: "EasyMineXR",
-    path: "/easyminexr",
   },
 ];
 

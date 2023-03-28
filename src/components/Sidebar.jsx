@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import { SidebarData } from "../constants";
-import SubMenu from "./SubMenu";
+import { Nav, SubMenu } from ".";
 import { IconContext } from "react-icons/lib";
 import { companyLogo } from "../assets";
 
@@ -27,30 +27,50 @@ const Sidebar = () => {
               GALEN SAGARA PERKASA
             </p>
           </Link>
-          {!sidebar ? 
-          (<Link
-            to="#"
-            className="flex justify-end items-center h-[60px] text-2xl mr-8"
-          >
-            <FaIcons.FaBars onClick={showSidebar} />
-          </Link>) :
-          (<Link
-                to="#"
-                className="flex justify-end items-center h-[60px] text-2xl mr-8"
-              >
-                <AiIcons.AiOutlineClose onClick={showSidebar} />
-              </Link>)
-          }
+          <div className="hidden ss:flex flex-col justify-center items-center">
+            <ul className="flex flex-row justify-center items-center gap-1">
+              {SidebarData.map((item, index) => {
+                return <Nav close={closeMobileMenu} item={item} key={index} />;
+              })}
+            </ul>
+          </div>
+          {!sidebar ? (
+            <Link
+              to="#"
+              className="flex justify-end items-center h-[60px] text-2xl mr-8 ss:hidden"
+            >
+              <FaIcons.FaBars onClick={showSidebar} />
+            </Link>
+          ) : (
+            <Link
+              to="#"
+              className="flex justify-end items-center h-[60px] text-2xl mr-8"
+            >
+              <AiIcons.AiOutlineClose onClick={showSidebar} />
+            </Link>
+          )}
         </div>
         {sidebar && (
           <nav
-            className={`bg-[#EDEDED] flex justify-center fixed w-screen h-screen top-0 ${( sidebar ) => sidebar ? "left-0" : "-left-full"} z-10 sidebar`}>
+            className={`bg-[#EDEDED] flex justify-center fixed w-screen h-screen top-0 ${(
+              sidebar
+            ) => (sidebar ? "left-0" : "-left-full")} z-10 sidebar`}
+          >
             <div className="w-full">
               <Link
                 to="#"
                 className="flex justify-end items-center h-[60px] text-2xl mr-8"
               >
                 <AiIcons.AiOutlineClose onClick={showSidebar} />
+              </Link>
+              <Link
+                to="/"
+                onClick={closeMobileMenu}
+                className="flex justify-between items-center p-5 h-[60px] text-lg list-none no-underline text-black hover:bg-[#c5c5c5] hover:cursor-pointer hover:border-l-4 hover:border-primary"
+              >
+                <div>
+                  <span className="ml-4">Home</span>
+                </div>
               </Link>
               {SidebarData.map((item, index) => {
                 return (
