@@ -1,6 +1,8 @@
 import React, { Fragment, useState } from "react";
 import { Listbox, Transition } from "@headlessui/react";
 import { ChevronUpDownIcon } from "@heroicons/react/20/solid";
+import { companyProfile } from "../assets";
+import { PdfViewer } from "../components";
 
 import { Project2022, Project2021, Project2020 } from "../components";
 
@@ -12,6 +14,12 @@ const Portfolio = () => {
   return (
     <div className="container mx-auto">
       <div className="flex flex-col justify-center items-center w-full">
+        <div className="flex flex-col justify-center items-center p-6 w-full">
+          <h2 className="text-center text-xs title-font font-medium text-black mb-1">
+            Our Portfolio
+          </h2>
+          <PdfViewer pdf={companyProfile} />
+        </div>
         <div className="p-6 mb-6">
           <Listbox value={selected} onChange={setSelected}>
             <div className="relative mt-1">
@@ -62,9 +70,9 @@ const Portfolio = () => {
           </Listbox>
         </div>
         <div className="p-6">
-          {(selected === projects[0]) && <Project2022 />}
-          {(selected === projects[1]) && <Project2021 />}
-          {(selected === projects[2]) && <Project2020 />}
+          {selected === projects[0] && <Project2022 />}
+          {selected === projects[1] && <Project2021 />}
+          {selected === projects[2] && <Project2020 />}
         </div>
       </div>
     </div>

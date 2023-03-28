@@ -31,7 +31,7 @@ const Footer = () => {
             >
               galensagara@gmail.com
             </button>
-            <h2 className="text-center title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
+            <h2 className="text-center title-font font-semibold text-gray-900 tracking-widest text-xs">
               PHONE
             </h2>
             <p className="text-center leading-relaxed">+62 8128 0807 385</p>

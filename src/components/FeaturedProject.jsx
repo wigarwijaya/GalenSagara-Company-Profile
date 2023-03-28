@@ -1,7 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { pict20 } from "../assets";
-import { PdfViewer } from ".";
-import { companyProfile } from "../assets";
 
 const FeaturedProject = () => {
   const [enter, setEnter] = useState(false);
@@ -82,11 +81,13 @@ const FeaturedProject = () => {
               Land Assets with a Profit Sharing System
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center p-6 w-full">
-            <h2 className="text-center text-xs title-font font-medium text-black mb-1">
-              Our Portfolio
-            </h2>
-            <PdfViewer pdf={companyProfile} />
+          <div className="container flex justify-center items-center p-6">
+            <Link
+              to="/portfolio"
+              className="w-64 h-10 text-black hover:text-white hover:bg-black border-2 border-black py-2 px-8 focus:outline-1 rounded text-sm text-center"
+            >
+              See More
+            </Link>
           </div>
         </div>
       </div>

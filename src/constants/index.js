@@ -19,6 +19,10 @@ export const SidebarData = [
     ]
   },
   {
+    title: 'Portfolio',
+    path: '/portfolio',
+  },
+  {
     title: 'About Us',
     path: '/about-us',
   },
