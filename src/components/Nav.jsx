@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import * as RiIcons from "react-icons/ri";
+import { Dropd } from ".";
 import { SidebarData } from "../constants";
-
-import "./Nav.css";
-import "./Dropd.css";
 
 function Navbar({ item, close }) {
   const [click, setClick] = useState(false);
@@ -19,7 +16,7 @@ function Navbar({ item, close }) {
       <li className="flex items-center h-[60px]">
         <Link
           to="/"
-          className="text-pink no-underline px-4 py-2"
+          className="text-primary no-underline px-4 py-2"
           onClick={closeMobileMenu}
         >
           Home
@@ -32,34 +29,13 @@ function Navbar({ item, close }) {
       >
         <Link
           to="#"
-          className="text-pink no-underline px-4 py-2"
+          className="text-primary no-underline px-4 py-2"
           onClick={closeMobileMenu}
         >
-          Services <i className="fas fa-caret-down" />
+          Services <i className="fas fa-caret-down text-primary" />
         </Link>
         {dropdownService && (
-          <ul
-            onClick={handleClick}
-            className={
-              click
-                ? "hidden"
-                : "bg-[#414757] absolute top-[60px] no-underline text-start"
-            }
-          >
-            {SidebarData[1].subNav.map((item, index) => {
-              return (
-                <li key={index}>
-                  <Link
-                    className="block h-full w-full no-underline text-white px-4 py-2"
-                    to={item.path}
-                    onClick={() => setClick(false)}
-                  >
-                    {item.title}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+          <Dropd handle={handleClick} dropdownData={SidebarData[1].subNav} />
         )}
       </li>
       <li
@@ -69,40 +45,19 @@ function Navbar({ item, close }) {
       >
         <Link
           to="#"
-          className="text-pink no-underline px-4 py-2"
+          className="text-primary no-underline px-4 py-2"
           onClick={closeMobileMenu}
         >
-          About Us <i className="fas fa-caret-down" />
+          About Us <i className="fas fa-caret-down text-primary" />
         </Link>
         {dropdownAbout && (
-          <ul
-            onClick={handleClick}
-            className={
-              click
-                ? "hidden"
-                : "bg-[#414757] absolute top-[60px] no-underline text-start"
-            }
-          >
-            {SidebarData[2].subNav.map((item, index) => {
-              return (
-                <li key={index}>
-                  <Link
-                    className="block h-full w-full no-underline text-white px-4 py-2"
-                    to={item.path}
-                    onClick={() => setClick(false)}
-                  >
-                    {item.title}
-                  </Link>
-                </li>
-              );
-            })}
-          </ul>
+          <Dropd handle={handleClick} dropdownData={SidebarData[2].subNav} />
         )}
       </li>
       <li className="flex items-center h-[60px]">
         <Link
           to="/contact-us"
-          className="text-pink no-underline px-4 py-2"
+          className="text-primary no-underline px-4 py-2"
           onClick={closeMobileMenu}
         >
           Contact Us

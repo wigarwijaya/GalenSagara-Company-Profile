@@ -72,11 +72,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-primary">
-        <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-          <p className="text-secondary text-sm text-center sm:text-left">
+        <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col">
+          <p className="text-secondary text-sm text-center">
             © Galen Sagara Perkasa 2023 —
           </p>
-          <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-secondary text-sm">
+          <span className="ss:mt-0 mt-2 w-full text-center text-secondary text-sm">
             All Rights Reserved
           </span>
         </div>
