@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 // import { navLinks } from '../constants';
 import { Link } from 'react-router-dom';
+import { SidebarData } from '../constants';
 import './Dropd.css';
 
-function Dropdown(props) {
+function Dropd (props) {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -14,7 +15,7 @@ function Dropdown(props) {
         onClick={handleClick}
         className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
       >
-        {props.list.map((item, index) => {
+        {SidebarData[1].subNav.map((item, index) => {
           return (
             <li key={index}>
               <Link
@@ -32,4 +33,4 @@ function Dropdown(props) {
   );
 }
 
-export default Dropdown;
+export default Dropd;

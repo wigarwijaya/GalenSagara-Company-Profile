@@ -28,10 +28,11 @@ const Sidebar = () => {
             </p>
           </Link>
           <div className="hidden ss:flex flex-col justify-center items-center">
-            <ul className="flex flex-row justify-center items-center gap-1">
-              {SidebarData.map((item, index) => {
+            <ul className="flex flex-row justify-center items-center gap-1 mr-8">
+              <Nav/>
+              {/* {SidebarData.map((item, index) => {
                 return <Nav close={closeMobileMenu} item={item} key={index} />;
-              })}
+              })} */}
             </ul>
           </div>
           {!sidebar ? (
@@ -62,15 +63,6 @@ const Sidebar = () => {
                 className="flex justify-end items-center h-[60px] text-2xl mr-8"
               >
                 <AiIcons.AiOutlineClose onClick={showSidebar} />
-              </Link>
-              <Link
-                to="/"
-                onClick={closeMobileMenu}
-                className="flex justify-between items-center p-5 h-[60px] text-lg list-none no-underline text-black hover:bg-[#c5c5c5] hover:cursor-pointer hover:border-l-4 hover:border-primary"
-              >
-                <div>
-                  <span className="ml-4">Home</span>
-                </div>
               </Link>
               {SidebarData.map((item, index) => {
                 return (

@@ -15,7 +15,7 @@ const LatestUpdate = () => {
           <h1 className="sm:text-3xl text-2xl text-start font-medium title-font text-gray-900">
             Services
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-start text-base">
+          <p className="mx-auto leading-relaxed text-start text-base">
             Our experienced consultants work closely with clients to understand
             their unique needs and challenges, providing expert advice and
             guidance to help them achieve their goals.
@@ -29,7 +29,7 @@ const LatestUpdate = () => {
                 src={pict3}
                 alt="blog"
               />
-              <div className="p-6 absolute bottom-0 bg-white/70">
+              <div className="p-6 absolute bottom-0 bg-white/70 ss:w-full">
                 <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
                   CATEGORY
                 </h2>
