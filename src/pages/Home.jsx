@@ -9,7 +9,7 @@ const Home = () => {
   }, [])
 
   return (
-    <div className='container'>
+    <div className='container relative -top-[60px]'>
     <Slider/>
     <LatestUpdate/>
     <FeaturedProject/>

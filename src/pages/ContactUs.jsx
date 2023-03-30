@@ -7,8 +7,8 @@ const ContactUs = () => {
   }, [])
 
   return (
-    <section className="text-gray-600 body-font relative">
-      <div className="container p-6 flex-wrap">
+    <section className="relative">
+      <div className="container px-5 py-5 mx-auto flex ss:flex-nowrap flex-wrap">
         <div className="flex flex-col mb-6">
           <div className="h-1 bg-gray-200 rounded overflow-hidden">
             <div className="w-4/5 h-full bg-primary"></div>

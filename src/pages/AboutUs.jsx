@@ -4,10 +4,9 @@ import { GoPrimitiveDot } from "react-icons/go";
 import { companyProfile, ISO1, ISO2, ISO3 } from "../assets";
 
 const AboutUs = () => {
-
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="container">
@@ -200,22 +199,32 @@ const AboutUs = () => {
         </div>
         <div className="flex items-center flex-wrap pb-5 mb-5 border-b-2 border-gray-100 mt-auto w-full"></div>
 
-        <div className="flex flex-col sm:flex-row justify-center items-center p-6">
-          <h2 className="text-center text-xs title-font font-medium text-black mb-1">
-            ISO CERTIFICATES
-          </h2>
-          <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
-            9001 : 2015 | INT/2210PA/3307
-          </h1>
-          <iframe src={ISO1} className="h-80"></iframe>
-          <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
-            14001 : 2015 | INT/2210PA/3308
-          </h1>
-          <iframe src={ISO2} className="h-80"></iframe>
-          <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
-            45001 : 2018 | INT/2210PA/3309
-          </h1>
-          <iframe src={ISO3} className="h-80"></iframe>
+        <div className="flex flex-col justify-center items-center p-6">
+          <div>
+            <h2 className="text-center text-xs title-font font-medium text-black mb-1">
+              ISO CERTIFICATES
+            </h2>
+          </div>
+          <div className="flex ss:flex-row flex-col ss:gap-8">
+            <div className="py-2">
+              <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
+                9001 : 2015 | INT/2210PA/3307
+              </h1>
+              <iframe src={ISO1} className="h-80"></iframe>
+            </div>
+            <div className="py-2">
+              <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
+                14001 : 2015 | INT/2210PA/3308
+              </h1>
+              <iframe src={ISO2} className="h-80"></iframe>
+            </div>
+            <div className="py-2">
+              <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
+                45001 : 2018 | INT/2210PA/3309
+              </h1>
+              <iframe src={ISO3} className="h-80"></iframe>
+            </div>
+          </div>
         </div>
       </div>
     </div>

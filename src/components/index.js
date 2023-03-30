@@ -1,7 +1,6 @@
 import Nav from "./Nav";
 import Sidebar from "./Sidebar";
 import SubMenu from "./SubMenu";
-import ServiceMenus from "./ServiceMenus";
 import Dropd from "./Dropd";
 import LatestUpdate from "./LatestUpdate";
 import FeaturedProject from "./FeaturedProject";
@@ -17,7 +16,6 @@ export {
   Nav,
   Sidebar,
   SubMenu,
-  ServiceMenus,
   Dropd,
   LatestUpdate,
   FeaturedProject,

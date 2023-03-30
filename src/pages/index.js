@@ -4,7 +4,6 @@ import NonConstruction from "./NonConstruction";
 import Portfolio from "./Portfolio";
 import AboutUs from "./AboutUs";
 import ContactUs from "./ContactUs" 
-import Career from "./Career" 
 
 export {
   Home,
@@ -13,5 +12,4 @@ export {
   Portfolio,
   AboutUs,
   ContactUs,
-  Career,
 };
