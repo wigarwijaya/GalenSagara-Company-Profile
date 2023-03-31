@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import Project2022 from "./Project2022";
 import Project2021 from "./Project2021";
 import Project2020 from "./Project2020";
+import Project2019 from "./Project2019";
 
 import PdfViewer from "./PdfViewer";
 
@@ -25,4 +26,5 @@ export {
   Project2022,
   Project2021,
   Project2020,
+  Project2019,
 };

@@ -4,16 +4,26 @@ import { ChevronUpDownIcon } from "@heroicons/react/20/solid";
 import { companyProfile } from "../assets";
 import { PdfViewer } from "../components";
 
-import { Project2022, Project2021, Project2020 } from "../components";
+import {
+  Project2022,
+  Project2021,
+  Project2020,
+  Project2019,
+} from "../components";
 
-const projects = [{ year: "2022" }, { year: "2021" }, { year: "2020" }];
+const projects = [
+  { year: "2022" },
+  { year: "2021" },
+  { year: "2020" },
+  { year: "2019" },
+];
 
 const Portfolio = () => {
   const [selected, setSelected] = useState(projects[0]);
 
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="container mx-auto">
@@ -77,6 +87,7 @@ const Portfolio = () => {
           {selected === projects[0] && <Project2022 />}
           {selected === projects[1] && <Project2021 />}
           {selected === projects[2] && <Project2020 />}
+          {selected === projects[3] && <Project2019 />}
         </div>
       </div>
     </div>
