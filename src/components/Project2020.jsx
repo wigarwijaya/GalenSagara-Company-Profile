@@ -1,4 +1,5 @@
 import React from 'react'
+import project2022 from '../constants/project2022'
 
 const Project2020 = () => {
   return (
