@@ -1,62 +1,26 @@
 import React from 'react'
+import project2021 from "../constants/project2021";
 
 const Project2021 = () => {
   return (
-    <div>
-      <table class="table-auto w-full whitespace-wrap border-collapse border border-slate-400 text-xs">
-        <thead>
-          <tr>
-            <th rowSpan={2} className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 border border-slate-300">
-              No.
-            </th>
-            <th rowSpan={2} className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 border border-slate-300">
-              Field of Work
-            </th>
-            <th rowSpan={2} className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 border border-slate-300">
-              Sub-Field
-            </th>
-            <th rowSpan={2} className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 border border-slate-300">
-              Location
-            </th>
-            <th colSpan={2} className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 border border-slate-300  ss:table-cell hidden">
-              Assignor
-            </th>
-            <th colSpan={2} className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 border border-slate-300 ss:table-cell hidden">
-              Contract
-            </th>
-            <th colSpan={2} className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 border border-slate-300 ss:table-cell hidden">
-              Completion
-            </th>
-          </tr>
-          <tr>
-            <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 border border-slate-300 ss:table-cell hidden">Name</th>
-            <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 border border-slate-300 ss:table-cell hidden">Address</th>
-            <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 border border-slate-300 ss:table-cell hidden">Number/Date</th>
-            <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 border border-slate-300 ss:table-cell hidden">Project Value</th>
-            <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 border border-slate-300 ss:table-cell hidden">Contract</th>
-            <th className="px-4 py-3 title-font tracking-wider font-medium text-gray-900 text-sm bg-gray-100 border border-slate-300 ss:table-cell hidden">Handover</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td className="border border-slate-300 px-4 py-3 text-center">1</td>
-            <td className="border border-slate-300 px-4 py-3">
-              Urban Drainage Planning for Bakti Jaya Village, Setu District
-            </td>
-            <td className="border border-slate-300 px-4 py-3 text-center">Water Civil Engineering Planning</td>
-            <td className="border border-slate-300 px-4 py-3 text-center">South Tangerang</td>
-            <td className="border border-slate-300 px-4 py-3 text-center ss:table-cell hidden">2021</td>
-            <td className="border border-slate-300 px-4 py-3 text-center ss:table-cell hidden">2021</td>
-            <td className="border border-slate-300 px-4 py-3 text-center ss:table-cell hidden">2021</td>
-            <td className="border border-slate-300 px-4 py-3 text-center ss:table-cell hidden">2021</td>
-            <td className="border border-slate-300 px-4 py-3 text-center ss:table-cell hidden">2021</td>
-            <td className="border border-slate-300 px-4 py-3 text-center ss:table-cell hidden">2021</td>
-          </tr>
-      
-        </tbody>
-      </table>
+    <div className="grid grid-cols-1 ss:grid-cols-3 ss:gap-4 gap-2">
+      {project2021.map((item, index) => {
+        return (
+          <div key={index} className="border-gray-200 border p-4 rounded-lg">
+            <h2 className="ss:text-2xl text-xl font-medium text-gray-900 title-font">
+              {`${item.no} | ${item.location}`}
+            </h2>
+            <h3 className="text-md font-light text-black title-font mb-2">
+              {item.subField}
+            </h3>
+            <p class="leading-relaxed">
+              {item.field}
+            </p>
+          </div>
+        );
+      })}
     </div>
-  )
+  );
 }
 
 export default Project2021
