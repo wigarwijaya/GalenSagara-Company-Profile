@@ -1,7 +1,7 @@
 import React from "react";
 import project2019 from "../constants/project2019";
 
-const Project2015 = () => {
+const Project2019 = () => {
   return (
     <div className="grid grid-cols-1 ss:grid-cols-3 ss:gap-4 gap-2">
       {project2019.map((item, index) => {
@@ -23,4 +23,4 @@ const Project2015 = () => {
   );
 };
 
-export default Project2015;
+export default Project2019;
