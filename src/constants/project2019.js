@@ -1011,6 +1011,71 @@ const project2019 = [
     contract: "26/12/2019",
     handover: "26/12/2019",
   },
+  {
+    no: "79",
+    field:
+      "Preparation of Motor Vehicle Fuel Distribution Database",
+    subField: "Survey / Telematics",
+    location: "Banten Province",
+    name: "Department of Energy and Mineral Resources",
+    address: "Kawasan Pusat Pemerintahan Prov. Banten Jl. Syech Nawawi Al Bantani Palima, Serang, Banten",
+    numberDate: "900/16.003- 11/KKPJK/SS/DESDM/ 2019 11/09/2019",
+    value: "126.250.000",
+    contract: "09/12/2019",
+    handover: "09/12/2019",
+  },
+  {
+    no: "80",
+    field:
+      "Shopping for Research Consulting Services",
+    subField: "Study, Research and Technical Assistance Services",
+    location: "Bandung City",
+    name: "Department of Environment and Cleanliness of Bandung City Government",
+    address: "Jl. Sadang Tengah No 4 & 6 Sadang Serang bandung",
+    numberDate: "027/749.11-PBJ.DLHK 16/08/2019",
+    value: "76.850.400",
+    contract: "13/11/2019",
+    handover: "20/11/2019",
+  },
+  {
+    no: "81",
+    field:
+      "Shopping for Planning Consultancy Services-Feasibility Study Panyileukan Retention Pool",
+    subField: "Study, Research and Technical Assistance Services",
+    location: "Bandung City",
+    name: "Bandung City Government in planning",
+    address: "Jl. Cianjur No.34 Bandung",
+    numberDate: "027/43.03/PL.01/SPK /PPKm/DPU2019 22/10/2019",
+    value: "49.118.300",
+    contract: "20/11/2019",
+    handover: "20/11/2019",
+  },
+  {
+    no: "82",
+    field:
+      "Procurement of Augmented Reality Services for the Cilegon Petrochemical Polytechnic Workshop Building for Fiscal Year 2019",
+    subField: "",
+    location: "Cilegon",
+    name: "Ministry of Industry Industrial Human Resources Development Agency",
+    address: "Jl. Widya Chandra VIII No.34 Kebayoran Baru Jakarta Selatan",
+    numberDate: "473.1/BPSDMI/PPK. SPK/12/2019 4/12/2019",
+    value: "94.600.000",
+    contract: "17/12/2019",
+    handover: "25/12/2019",
+  },
+  {
+    no: "83",
+    field:
+      "Technical Planning Work for the Construction of a 2 (two) Floor Office Building",
+    subField: "Architectural Planning / Building Civil Engineering",
+    location: "Tangerang Regency",
+    name: "PT. Chingluh Indonesia",
+    address: "Jl. Raya Serang Km. 16 Ds. Talagasari Kec. Cikupa Kab. Tangerang",
+    numberDate: "014/SPK.GSP- CLI/VIII/2019 13-08-2019",
+    value: "465.500.000",
+    contract: "12-12-2019",
+    handover: "12-12-2019",
+  },
 ];
 
 export default project2019;
