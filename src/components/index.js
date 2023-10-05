@@ -11,6 +11,9 @@ import Project2021 from "./Project2021";
 import Project2020 from "./Project2020";
 import Project2019 from "./Project2019";
 import Project2018 from "./Project2018";
+import Project2017 from "./Project2017";
+import Project2016 from "./Project2016";
+import Project2015 from "./Project2015";
 
 import PdfViewer from "./PdfViewer";
 
@@ -29,4 +32,7 @@ export {
   Project2020,
   Project2019,
   Project2018,
+  Project2017,
+  Project2016,
+  Project2015
 };

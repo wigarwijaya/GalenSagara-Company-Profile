@@ -10,6 +10,9 @@ import {
   Project2020,
   Project2019,
   Project2018,
+  Project2017,
+  Project2016,
+  Project2015,
 } from "../components";
 
 const projects = [
@@ -18,6 +21,9 @@ const projects = [
   { year: "2020" },
   { year: "2019" },
   { year: "2018" },
+  { year: "2017" },
+  { year: "2016" },
+  { year: "2015" },
 ];
 
 const Portfolio = () => {
@@ -91,6 +97,9 @@ const Portfolio = () => {
           {selected === projects[2] && <Project2020 />}
           {selected === projects[3] && <Project2019 />}
           {selected === projects[4] && <Project2018 />}
+          {selected === projects[5] && <Project2017 />}
+          {selected === projects[6] && <Project2016 />}
+          {selected === projects[7] && <Project2015 />}
         </div>
       </div>
     </div>
