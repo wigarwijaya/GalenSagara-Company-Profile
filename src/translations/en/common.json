@@ -1,0 +1,20 @@
+{
+  
+  "nav": {
+    "home":"Home",
+    "services":"Services",
+    "aboutUs":"About Us",
+    "contactUs":"Contact Us"
+  },
+
+
+	"language-selector": {
+		"label": "Select your language:",
+		"languages": {
+			"text":"Language",
+			"id": "Indonesian",
+			"en": "English"
+   
+		}
+	}
+}

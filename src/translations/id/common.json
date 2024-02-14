@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home":"Beranda",
+    "services":"Servis",
+    "aboutUs":"Tentang Kami",
+    "contactUs":"Kontak Kami"
+  },
+  "language-selector": {
+    "label": "Pilih Bahasa Anda: ",
+    "languages": {
+        "text":"Bahasa",
+        "id": "Indonesia",
+        "en": "Inggris"
+    }
+}
+}

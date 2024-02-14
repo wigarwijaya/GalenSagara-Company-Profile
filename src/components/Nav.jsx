@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Dropd } from ".";
 import { SidebarData } from "../constants";
+import { useTranslation } from "react-i18next";
 
 function Navbar({ item, close }) {
   const [click, setClick] = useState(false);
@@ -11,6 +12,13 @@ function Navbar({ item, close }) {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  const [t, i18n] = useTranslation("common");
+  const [selectLang, setSelectLang] = useState(i18n.language);
+  const handleChange = (language) => {
+    i18n.changeLanguage(language);
+    setSelectLang(language);
+  };
+
   return (
     <>
       <li className="flex items-center h-[60px]">
@@ -19,7 +27,7 @@ function Navbar({ item, close }) {
           className="text-primary no-underline px-4 py-2"
           onClick={closeMobileMenu}
         >
-          Home
+          {t("nav.home")}
         </Link>
       </li>
       <li
@@ -32,7 +40,7 @@ function Navbar({ item, close }) {
           className="text-primary no-underline px-4 py-2"
           onClick={closeMobileMenu}
         >
-          Services <i className="fas fa-caret-down text-primary" />
+          {t("nav.services")} <i className="fas fa-caret-down text-primary" />
         </Link>
         {dropdownService && (
           <Dropd handle={handleClick} dropdownData={SidebarData[1].subNav} />
@@ -48,7 +56,7 @@ function Navbar({ item, close }) {
           className="text-primary no-underline px-4 py-2"
           onClick={closeMobileMenu}
         >
-          About Us <i className="fas fa-caret-down text-primary" />
+          {t("nav.aboutUs")} <i className="fas fa-caret-down text-primary" />
         </Link>
         {dropdownAbout && (
           <Dropd handle={handleClick} dropdownData={SidebarData[2].subNav} />
@@ -60,9 +68,23 @@ function Navbar({ item, close }) {
           className="text-primary no-underline px-4 py-2"
           onClick={closeMobileMenu}
         >
-          Contact Us
+          {t("nav.contactUs")}
         </Link>
       </li>
+      <div>
+        <label style={{ marginRight: "10px" }} htmlFor="language">
+          {t("language-selector.languages.text")}
+        </label>
+
+        <select
+          id="language"
+          value={selectLang}
+          onChange={(e) => handleChange(e.target.value)}
+        >
+          <option value="en">{t("language-selector.languages.en")}</option>
+          <option value="id">{t("language-selector.languages.id")}</option>
+        </select>
+      </div>
     </>
   );
 }
