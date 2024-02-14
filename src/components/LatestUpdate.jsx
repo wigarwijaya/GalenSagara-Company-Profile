@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import { text } from "../constants";
 import { Link } from "react-router-dom";
 import { pict1, pict3 } from "../assets";
+import { useTranslation } from "react-i18next";
 
 const LatestUpdate = () => {
   const [construction, setConstruction] = useState(false);
   const [nonConstruction, setNonConstruction] = useState(false);
+  const {t} = useTranslation("common")
 
   const onConstructionEnter = () => {
     setConstruction(true);

@@ -1,10 +1,68 @@
 {
   "nav": {
     "home":"Beranda",
-    "services":"Servis",
+    "services":"Pelayanan",
     "aboutUs":"Tentang Kami",
     "contactUs":"Kontak Kami"
   },
+  "see more":"Lihat lebih banyak",
+  "learn more":"Pelajari lebih banyak",
+    "featured-project": {
+      "serang": {
+        "title": "2022 | Kota Serang",
+        "content": {
+          "title": "Air Lingkungan/Sipil",
+          "text": "Pengeluaran Konsultansi Berorientasi Layanan Khusus Rencana Induk Pipa Air Bersih Kota Serang"
+        }
+      },
+      "bekasi": {
+        "title": "2022 | Kabupaten Bekasi",
+        "content": {
+          "title": "Studi Penelitian dan Bantuan Teknis",
+          "text": "Pengeluaran untuk Membuat Buku Investasi Potensi Bisnis dan Peluang Kabupaten/Kota"
+        }
+      },
+      "magelang": {
+        "title": "2022 | Kota Magelang",
+        "content": {
+          "title": "Studi Penelitian dan Bantuan Teknis",
+          "text": "Studi Pemanfaatan dan Pengelolaan Aset Lahan Pertanian Sawah dengan Sistem Bagi Hasil"
+        }
+      },
+      "bogor": {
+        "title": "2022 | Kota Bogor",
+        "content": {
+          "title": "Telematika",
+          "text": "Pemeliharaan/Pemeliharaan Aplikasi Portal Data Diskominfo"
+        }
+      },
+      "depok": {
+        "title": "2022 | Kota Depok",
+        "content": {
+          "title": "Layanan Survey/Peta",
+          "text": "Dokumen Perencanaan Pencarian Tanah Bagian 1 R3 Katulampa Tajur"
+        }
+      }
+    },
+    "client": {
+      "text":"Parner Kami"
+    }
+  ,
+
+  "latestUpdate": {
+    "services": {
+      "text":"Konsultan berpengalaman kami bekerja secara dekat dengan klien untuk memahami kebutuhan dan tantangan unik mereka, memberikan saran dan bimbingan ahli untuk membantu mereka mencapai tujuan mereka",
+      "contruction": {
+        "title":"Layanan Perencanaan Konstruksi",
+        "content":""
+      },
+      "non-construction": {
+        "title":"Layanan Perencanaan Non-Konstruksi",
+        "content":""
+      }
+    }
+  }
+  ,
   "language-selector": {
     "label": "Pilih Bahasa Anda: ",
     "languages": {
