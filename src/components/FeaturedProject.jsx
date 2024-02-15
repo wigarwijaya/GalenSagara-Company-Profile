@@ -24,7 +24,7 @@ const FeaturedProject = () => {
       <div className="container mx-auto px-5 pt-10">
         <div className="flex flex-col w-full">
           <h1 className="ss:text-center ss:text-3xl text-2xl text-start font-medium title-font text-gray-900">
-            Portfolio
+            {t("portfolio")}
           </h1>
         </div>
         <div className="flex flex-wrap">

@@ -6,8 +6,13 @@
     "aboutUs":"About Us",
     "contactUs":"Contact Us"
   },
+  "construction":"{{title}}",
+  "non-construction":"{{title}}",
+
+  "categories":"CATEGORIES",
   "see more":"See more",
   "learn more":"learn more",
+  "portfolio":"Portfolio",
   "featured-project": {
     "serang": {
       "title": "2022 | Serang City",
@@ -55,16 +60,29 @@
   "latestUpdate": {
     "services": {
       "text":"  Our experienced consultants work closely with clients to understand their unique needs and challenges, providing expert advice and guidance to help them achieve their goals.",
-      "contruction": {
+      "construction": {
         "title":"Construction Planning Service",
-        "content":""
+        "content":"{{content}}"
       },
       "non-construction": {
         "title":"Non-Construction Planning Service",
-        "content":""
+        "content":"{{content}}"
       }
     }
   }
+  ,
+  "feedback": {
+    "title":"Feedback",
+    "name":"Name",
+    "message":"Message",
+    "submit":"Submit"
+  },
+  "footer":{
+    "address":"ADDRESS",
+    "officeAddress":"OFFICE ADDRESS",
+    "phone":"PHONE"
+  }
+
   ,
 	"language-selector": {
 		"label": "Select your language:",

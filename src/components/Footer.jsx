@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { companyLogo } from "../assets";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const {t} = useTranslation("common")
   return (
     <div className="w-screen body-font border-t border-gray-200 bg-[#e4e4e4]">
       <div className="container mx-auto p-5">
@@ -16,11 +18,11 @@ const Footer = () => {
 
           <div className="ss:w-1/4 w-full justify-center ss:h-[218px] ss:text-start text-center">
             <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs ">
-              ADDRESS
+            {t("footer.address")}
             </h2>
             <p className="">Jl. Martanegara No. 56, Bandung</p>
             <h2 className=" mt-1 title-font font-semibold text-gray-900 tracking-widest text-xs">
-              OFFICE ADDRESS
+              {t("footer.officeAddress")}
             </h2>
             <p className="">Jl. Guntur Madu No. 6A, Bandung</p>
             <h2 className=" title-font font-semibold text-gray-900 tracking-widest text-xs">
@@ -33,30 +35,30 @@ const Footer = () => {
               galensagara@gmail.com
             </button>
             <h2 className=" title-font font-semibold text-gray-900 tracking-widest text-xs">
-              PHONE
+            {t("footer.phone")}
             </h2>
             <p className=" leading-relaxed">+62 8128 0807 385</p>
           </div>
 
           <div className="ss:w-1/4 w-full justify-start ss:items-start ss:h-[218px] ss:flex hidden flex-col">
             <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
-              CATEGORIES
+              {t("categories")}
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <Link to="/" className="text-gray-600 hover:text-gray-800">Home</Link>
+                <Link to="/" className="text-gray-600 hover:text-gray-800">{t("nav.home")}</Link>
               </li>
               <li>
-                <Link to="/services/construction-planning" className="text-gray-600 hover:text-gray-800">Construction Planning</Link>
+                <Link to="/services/construction-planning" className="text-gray-600 hover:text-gray-800">{t("latestUpdate.services.construction.title")}</Link>
               </li>
               <li>
-                <Link to="/services/non-construction-planning" className="text-gray-600 hover:text-gray-800">Non-Construction Planning</Link>
+                <Link to="/services/non-construction-planning" className="text-gray-600 hover:text-gray-800">{t("latestUpdate.services.non-construction.title")}</Link>
               </li>
               <li>
-                <Link to="/about-us" className="text-gray-600 hover:text-gray-800">About Us</Link>
+                <Link to="/about-us" className="text-gray-600 hover:text-gray-800">{t("nav.aboutUs")}</Link>
               </li>
               <li>
-                <Link to="/contact-us" className="text-gray-600 hover:text-gray-800">Contact Us</Link>
+                <Link to="/contact-us" className="text-gray-600 hover:text-gray-800">{t("nav.contactUs")}</Link>
               </li>
             </nav>
           </div>

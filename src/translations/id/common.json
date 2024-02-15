@@ -5,8 +5,13 @@
     "aboutUs":"Tentang Kami",
     "contactUs":"Kontak Kami"
   },
-  "see more":"Lihat lebih banyak",
-  "learn more":"Pelajari lebih banyak",
+  "construction":"Layanan Perencanaan Konstruksi",
+  "non-construction":"Layanan Perencanaan Non-Konstruksi",
+
+  "categories":"KATEGORI",
+  "see more":"Lihat lebih lanjut",
+  "learn more":"Pelajari lebih lanjut",
+  "portfolio":"Portofolio",
     "featured-project": {
       "serang": {
         "title": "2022 | Kota Serang",
@@ -52,15 +57,26 @@
   "latestUpdate": {
     "services": {
       "text":"Konsultan berpengalaman kami bekerja secara dekat dengan klien untuk memahami kebutuhan dan tantangan unik mereka, memberikan saran dan bimbingan ahli untuk membantu mereka mencapai tujuan mereka",
-      "contruction": {
+      "construction": {
         "title":"Layanan Perencanaan Konstruksi",
-        "content":""
+        "content":"Ubah visi Anda menjadi kenyataan dengan layanan perencanaan konstruksi komprehensif kami, yang dirancang untuk memenuhi kebutuhan unik proyek Anda."
       },
       "non-construction": {
         "title":"Layanan Perencanaan Non-Konstruksi",
-        "content":""
+        "content":"Maksimalkan potensi bisnis Anda dengan layanan perencanaan non-konstruksi ahli kami, yang dirancang untuk mengoptimalkan operasi, menyederhanakan proses, dan mendorong kesuksesan."
       }
     }
+  },
+  "feedback": {
+    "title":"Masukan",
+    "name":"Nama",
+    "message":"Pesan",
+    "submit":"Kirim"
+  },
+  "footer":{
+    "address":"ALAMAT",
+    "officeAddress":"ALAMAT KANTOR",
+    "phone":"TELEPON"
   }
   ,
   "language-selector": {
