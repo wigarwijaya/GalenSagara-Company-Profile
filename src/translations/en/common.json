@@ -5,9 +5,12 @@
     "services":"Services",
     "aboutUs":"About Us",
     "contactUs":"Contact Us"
+
+    
   },
-  "construction":"{{title}}",
-  "non-construction":"{{title}}",
+
+  "Construction planning Service":"{{title}}",
+  "Non-Construction Planning Service":"{{title}}",
 
   "categories":"CATEGORIES",
   "see more":"See more",
@@ -81,8 +84,70 @@
     "address":"ADDRESS",
     "officeAddress":"OFFICE ADDRESS",
     "phone":"PHONE"
+  },  
+"construction":{
+  "type":{
+    "planning":[{
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    }
+  ]
+    ,
+    "non-planning":[{
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    }
+  ]
   }
-
+}
   ,
 	"language-selector": {
 		"label": "Select your language:",

@@ -46,9 +46,7 @@ function Navbar({ item, close }) {
           <Dropd handle={handleClick} dropdownData={SidebarData[1].subNav} />
    
         )}
-        {/* {t("construction",{title:SidebarData[1].subNav})} */}
-        {/* <div>{SidebarData[1].subNav}</div> */}
-        {console.log(SidebarData[1].subNav[0].title)}
+
       </li>
       <li
         className="flex items-center h-[60px]"

@@ -1,10 +1,12 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 function Dropd({ dropdownData }) {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
+  const { t } = useTranslation("common");
 
   return (
     <>
@@ -24,7 +26,8 @@ function Dropd({ dropdownData }) {
                 to={item.path}
                 onClick={() => setClick(false)}
               >
-                {item.title}
+                {/* {item.title} */}
+                {t(item.title, { title: item.title })}
               </Link>
             </li>
           );

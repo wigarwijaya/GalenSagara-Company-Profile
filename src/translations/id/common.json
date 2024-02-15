@@ -1,90 +1,151 @@
 {
   "nav": {
-    "home":"Beranda",
-    "services":"Pelayanan",
-    "aboutUs":"Tentang Kami",
-    "contactUs":"Kontak Kami"
+    "home": "Beranda",
+    "services": "Pelayanan",
+    "aboutUs": "Tentang Kami",
+    "contactUs": "Kontak Kami"
   },
-  "construction":"Layanan Perencanaan Konstruksi",
-  "non-construction":"Layanan Perencanaan Non-Konstruksi",
 
-  "categories":"KATEGORI",
-  "see more":"Lihat lebih lanjut",
-  "learn more":"Pelajari lebih lanjut",
-  "portfolio":"Portofolio",
-    "featured-project": {
-      "serang": {
-        "title": "2022 | Kota Serang",
-        "content": {
-          "title": "Air Lingkungan/Sipil",
-          "text": "Pengeluaran Konsultansi Berorientasi Layanan Khusus Rencana Induk Pipa Air Bersih Kota Serang"
-        }
-      },
-      "bekasi": {
-        "title": "2022 | Kabupaten Bekasi",
-        "content": {
-          "title": "Studi Penelitian dan Bantuan Teknis",
-          "text": "Pengeluaran untuk Membuat Buku Investasi Potensi Bisnis dan Peluang Kabupaten/Kota"
-        }
-      },
-      "magelang": {
-        "title": "2022 | Kota Magelang",
-        "content": {
-          "title": "Studi Penelitian dan Bantuan Teknis",
-          "text": "Studi Pemanfaatan dan Pengelolaan Aset Lahan Pertanian Sawah dengan Sistem Bagi Hasil"
-        }
-      },
-      "bogor": {
-        "title": "2022 | Kota Bogor",
-        "content": {
-          "title": "Telematika",
-          "text": "Pemeliharaan/Pemeliharaan Aplikasi Portal Data Diskominfo"
-        }
-      },
-      "depok": {
-        "title": "2022 | Kota Depok",
-        "content": {
-          "title": "Layanan Survey/Peta",
-          "text": "Dokumen Perencanaan Pencarian Tanah Bagian 1 R3 Katulampa Tajur"
-        }
+  "Construction planning Service": "Layanan Perencanaan Konstruksi",
+  "Non-Construction Planning Service": "Layanan Perencanaan Non Konstruksi",
+  "categories": "KATEGORI",
+  "see more": "Lihat lebih lanjut",
+  "learn more": "Pelajari lebih lanjut",
+  "portfolio": "Portofolio",
+  "featured-project": {
+    "serang": {
+      "title": "2022 | Kota Serang",
+      "content": {
+        "title": "Air Lingkungan/Sipil",
+        "text": "Pengeluaran Konsultansi Berorientasi Layanan Khusus Rencana Induk Pipa Air Bersih Kota Serang"
       }
     },
-    "client": {
-      "text":"Parner Kami"
+    "bekasi": {
+      "title": "2022 | Kabupaten Bekasi",
+      "content": {
+        "title": "Studi Penelitian dan Bantuan Teknis",
+        "text": "Pengeluaran untuk Membuat Buku Investasi Potensi Bisnis dan Peluang Kabupaten/Kota"
+      }
+    },
+    "magelang": {
+      "title": "2022 | Kota Magelang",
+      "content": {
+        "title": "Studi Penelitian dan Bantuan Teknis",
+        "text": "Studi Pemanfaatan dan Pengelolaan Aset Lahan Pertanian Sawah dengan Sistem Bagi Hasil"
+      }
+    },
+    "bogor": {
+      "title": "2022 | Kota Bogor",
+      "content": {
+        "title": "Telematika",
+        "text": "Pemeliharaan/Pemeliharaan Aplikasi Portal Data Diskominfo"
+      }
+    },
+    "depok": {
+      "title": "2022 | Kota Depok",
+      "content": {
+        "title": "Layanan Survey/Peta",
+        "text": "Dokumen Perencanaan Pencarian Tanah Bagian 1 R3 Katulampa Tajur"
+      }
     }
-  ,
-
+  },
+  "client": {
+    "text": "Parner Kami"
+  },
   "latestUpdate": {
     "services": {
-      "text":"Konsultan berpengalaman kami bekerja secara dekat dengan klien untuk memahami kebutuhan dan tantangan unik mereka, memberikan saran dan bimbingan ahli untuk membantu mereka mencapai tujuan mereka",
+      "text": "Konsultan berpengalaman kami bekerja secara dekat dengan klien untuk memahami kebutuhan dan tantangan unik mereka, memberikan saran dan bimbingan ahli untuk membantu mereka mencapai tujuan mereka",
       "construction": {
-        "title":"Layanan Perencanaan Konstruksi",
-        "content":"Ubah visi Anda menjadi kenyataan dengan layanan perencanaan konstruksi komprehensif kami, yang dirancang untuk memenuhi kebutuhan unik proyek Anda."
+        "title": "Layanan Perencanaan Konstruksi",
+        "content": "Ubah visi Anda menjadi kenyataan dengan layanan perencanaan konstruksi komprehensif kami, yang dirancang untuk memenuhi kebutuhan unik proyek Anda."
       },
       "non-construction": {
-        "title":"Layanan Perencanaan Non-Konstruksi",
-        "content":"Maksimalkan potensi bisnis Anda dengan layanan perencanaan non-konstruksi ahli kami, yang dirancang untuk mengoptimalkan operasi, menyederhanakan proses, dan mendorong kesuksesan."
+        "title": "Layanan Perencanaan Non-Konstruksi",
+        "content": "Maksimalkan potensi bisnis Anda dengan layanan perencanaan non-konstruksi ahli kami, yang dirancang untuk mengoptimalkan operasi, menyederhanakan proses, dan mendorong kesuksesan."
       }
     }
   },
   "feedback": {
-    "title":"Masukan",
-    "name":"Nama",
-    "message":"Pesan",
-    "submit":"Kirim"
+    "title": "Masukan",
+    "name": "Nama",
+    "message": "Pesan",
+    "submit": "Kirim"
   },
-  "footer":{
-    "address":"ALAMAT",
-    "officeAddress":"ALAMAT KANTOR",
-    "phone":"TELEPON"
-  }
-  ,
+  "footer": {
+    "address": "ALAMAT",
+    "officeAddress": "ALAMAT KANTOR",
+    "phone": "TELEPON"
+  },
+  "construction": {
+    "type": {
+      "planning": [
+        {
+          "title": "LAYANAN PEMBANGUNAN DAERAH – AL002",
+          "content": "Layanan bisnis terkait dengan studi, perencanaan, desain, pengawasan, dan manajemen implementasi konstruksi yang terkait dengan perencanaan tata ruang regional termasuk audit pemanfaatan area dan pengaturan zonasi yang mencakup daratan, laut, udara, dan di dalam bumi termasuk area koridor pulau, area strategis nasional/provinsi/kabupaten/kota, area andalan, area residensial, dan area terbuka hijau/publik."
+        },
+        {
+          "title": "LAYANAN PEMBANGUNAN PERKOTAAN – AL003",
+          "content": "Layanan perencanaan tata ruang perkotaan (meliputi daratan, laut, udara, dan bawah tanah), layanan perencanaan perkotaan, termasuk layanan evaluasi dan layanan konsultasi dalam perencanaan tata ruang perkotaan."
+        },
+        {
+          "title": "LAYANAN PEMBANGUNAN PERKOTAAN – AL004",
+          "content": "Kelompok ini mencakup layanan bisnis terkait dengan tinjauan, perencanaan, desain, pengawasan, dan manajemen konstruksi terkait dengan pengembangan tata lanskap estetika untuk taman, lahan komersial, dan permukiman."
+        },
+        {
+          "title": "LAYANAN TEKNIK LAINNYA – RK005",
+          "content": "Layanan bisnis terkait dengan tinjauan, perencanaan, desain, pengawasan, dan manajemen penyelenggaraan konstruksi terkait: pekerjaan bangunan teknik militer, pekerjaan fasilitas olahraga, pekerjaan pengolahan air bersih, pembuangan air limbah, pengelolaan limbah, fasilitas area & infrastruktur perumahan, industri, rumah sakit, dan sistem pengendalian lalu lintas untuk transportasi darat, udara, dan laut."
+        },
+        {
+          "title": "LAYANAN KONSULTASI ILMIAH DAN TEKNIS TENTANG PERMUKAAN TANAH DAN PEMETAAN – IT003",
+          "content": "Aktivitas survei dan analisis bentuk dan/atau lapisan permukaan bumi menggunakan metode lainnya, termasuk trankit, fotogrametri, dan hidrografi untuk tujuan penyusunan peta dan topologi secara udara/satelit, pemindaian laser, kualitas dan kuantitas minyak bumi, kargo (muatan), batimetri, meteorologi, dan oseanografi."
+        },
+        {
+          "title": "LAYANAN ARSITEKTUR BANGUNAN PERUMAHAN DAN NON PERUMAHAN – AR001",
+          "content": "Studi bisnis, perencanaan, desain, pengawasan, dan manajemen layanan konstruksi serta layanan konsultasi arsitektur dan layanan pra-desain."
+        },
+        {
+          "title": "LAYANAN ARSITEKTUR LAINNYA – AR002",
+          "content": "Kelompok ini mencakup layanan bisnis untuk studi, perencanaan, desain, pengawasan, dan manajemen konstruksi bangunan khusus seperti bangunan warisan budaya, bangunan museum, bangunan penelitian dan teknologi, monumen, bangunan sipil, dan bangunan khusus lainnya yang serupa."
+        }
+      ],
+      "non-planning": [
+        {
+          "title": "",
+          "content": ""
+        },
+        {
+          "title": "",
+          "content": ""
+        },
+        {
+          "title": "",
+          "content": ""
+        },
+        {
+          "title": "",
+          "content": ""
+        },
+        {
+          "title": "",
+          "content": ""
+        },
+        {
+          "title": "",
+          "content": ""
+        },
+        {
+          "title": "",
+          "content": ""
+        }
+      ]
+    }
+  },
   "language-selector": {
     "label": "Pilih Bahasa Anda: ",
     "languages": {
-        "text":"Bahasa",
-        "id": "Indonesia",
-        "en": "Inggris"
+      "text": "Bahasa",
+      "id": "Indonesia",
+      "en": "Inggris"
     }
-}
+  }
 }
