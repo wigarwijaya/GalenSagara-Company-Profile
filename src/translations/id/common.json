@@ -110,32 +110,38 @@
       ],
       "non-planning": [
         {
-          "title": "",
-          "content": ""
+          "title": "PERTANIAN DAN PEMBANGUNAN PERDESAAN",
+          "content": "Pelayanan di bidang pembangunan pertanian dan pedesaan meliputi: Pembangunan Prasarana Sosial dan Partisipasi Masyarakat, Perkreditan dan Kelembagaan, Perkebunan dan Mekanisasi Pertanian, Pembibitan, Pengendalian Hama/Penyakit Tumbuhan, Peternakan, Kehutanan, Perikanan, Tanaman Keras serta Pangan dan Hasil Tumbuhan Lainnya, Konservasi dan Penghijauan, Pembangunan Pertanian dan Pedesaan Lainnya."
         },
         {
-          "title": "",
-          "content": ""
+          "title": "TRANSPORTASI",
+          "content": [
+            "Pengembangan Fasilitas Transportasi: Survei Asal-Tujuan, Peramalan Permintaan, Pemodelan, Kebijakan, dan Program Investasi.",
+            "Peraturan / Regulasi dalam Sektor Transportasi.",
+            "Usaha jasa transportasi: Regulasi usaha jasa transportasi, manajemen dan pengembangan organisasi bisnis transportasi, analisis keuangan, perhitungan harga dasar, dan penetapan tarif.",
+            "Pembuat Dokumen Analisis Dampak Lalu Lintas.",
+            "Sub-sektor Transportasi Lainnya."
+          ]
         },
         {
-          "title": "",
-          "content": ""
+          "title": "TELEMATIKA",
+          "content": " Jasa pada bidang telematika meliputi kegiatan di dalam Pertanahan Telekomunikasi, Telekomunikasi Satelit, Perangkat Keras, Konten, sublayanan Aplikasi/Software, dan Telematika lainnya sub-layanan."
         },
         {
-          "title": "",
-          "content": ""
+          "title": "PERTAMBANGAN DAN ENERGI",
+          "content": " Bidang ini melayani subsektor jasa yang meliputi: Ekonomi dan Konservasi Energi; Minyak dan gas; Batubara, Lignit dan Antrasil; Ekonomi Pemasaran dan Eksplorasi Mineral; Mineral Teknologi; Eksploitasi Komoditas dan Mineral; dan Pertambangan dan  Subsektor Energi Lainnya."
         },
         {
-          "title": "",
-          "content": ""
+          "title": " JASA KONSULTASI MANAJEMEN",
+          "content": "Pada bidang ini subsektor jasa meliputi: Sistem Akuntansi Perencanaan; Pelatihan dan Pengembangan SDM; Manajemen Fungsional  Konsultasi; Konsultasi Hukum Bisnis."
         },
         {
-          "title": "",
-          "content": ""
+          "title": "LAYANAN STUDI, PENELITIAN DAN BANTUAN TEKNIS",
+          "content": "Pada bidang ini subsektor jasa meliputi: Kajian Makro; Studi Kelayakan & Studi Mikro Lainnya; Kajian Perencanaan Umum; Layanan Penelitian; Layanan Bantuan Teknis; Minyak dan gas  Pelayanan Penelitian dan Pengembangan, Meliputi : Analisis Inti  Hasil Pengeboran (Analisis Inti); Reservoir Analisis Fluida (Analisis Cairan Reservoir); Analisis Mengenai Dampak Lingkungan; Upaya Pengelolaan Lingkungan Hidup/Pemantauan Lingkungan Hidup; Mempertaruhkan Analisis; Studi Pengembangan Lapangan; Studi kelayakan; Perencanaan  dan Bantuan Teknis (Engineering Design) di luar  Perencanaan konstruksi; Pelajari Peningkatan Pemulihan Minyak."
         },
         {
-          "title": "",
-          "content": ""
+          "title": "LAYANAN SURVEI",
+          "content": "Bidang ini melayani subsektor jasa, seperti: Terrestrial Survei; Penginderaan Jauh/Fotografi; Hidrografi/Batimetrik Survei; Sistem Informasi Geografis; Survei Kepemilikan Tanah Registrasi/Survei Kadastral Geologi dan Geofisika; Survei Pertanian; Jasa Survey Non Seismik dan Geologi dan Jasa Survei Geofisika (non-seismik)"
         }
       ]
     }
