@@ -12,8 +12,52 @@ import "./Slider.css";
 
 // import required modules
 import { Autoplay, Pagination } from "swiper";
+import { useTranslation } from "react-i18next";
+
+
+
 
 export default function Slider() {
+  const { t } = useTranslation("common");
+  const sliderData = [
+    {
+      "title": "Architecture",
+      "content": "We transform your ideas into innovative and sustainable designs."
+    },
+    {
+      "title": "Planning",
+      "content": "We design your vision, build your future with our planning services."
+    },
+    {
+      "title": "Engineering Consultant",
+      "content": "Expert engineering solutions for your toughest challenges."
+    },
+    {
+      "title": "Survey",
+      "content": "Accurate data, confident decisions - with our survey services."
+    },
+    {
+      "title": "Mapping",
+      "content": "Mapping your world with precision and detail."
+    },
+    {
+      "title": "Environment",
+      "content": "Working towards a sustainable future with our comprehensive environmental services."
+    },
+    {
+      "title": "Management",
+      "content": "Efficient and effective management solutions for your projects - trust us to deliver results."
+    },
+    {
+      "title": "Information Technology",
+      "content": "Empowering your business with innovative IT solutions - our expertise, your success."
+    },
+    {
+      "title": "Project Management",
+      "content": "From concept to completion - our project management services ensure your vision becomes a reality."
+    }
+  ];
+  const sliderx = t('slider', { returnObjects: true });
   return (
     <div id="slider">
       <Swiper
@@ -29,7 +73,24 @@ export default function Slider() {
         modules={[Autoplay, Pagination]}
         className="w-[100vw] h-[100vh]"
       >
-        <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
+        {sliderData.map((item, index) => (
+                <SwiperSlide key={index} className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
+                <div className="relative h-full w-full">
+                  <img src={pict1} className="block w-full h-full object-cover" />
+                  <div className="absolute bottom-0 w-full h-50 bg-secondary/70 p-5">
+                    <h2 className="ss:text-center text-primary font-bold ss:text-4xl text-3xl text-start">
+                  {t(`slider.${index}.title`, {title:sliderData[index].title})}
+                 
+                    </h2>
+                    <p className="ss:text-center mx-auto leading-relaxed text-base text-black text-start pt-2 pb-4">
+            
+                  {t(`slider.${index}.content` , {content:sliderData[index].content})}
+                    </p>
+                  </div>
+                </div>
+          </SwiperSlide>
+      ))}
+        {/* <SwiperSlide className="text-start text-[18px] bg-[#fff] flex justify-center items-center">
           <div className="relative h-full w-full">
             <img src={pict1} className="block w-full h-full object-cover" />
             <div className="absolute bottom-0 w-full h-50 bg-secondary/70 p-5">
@@ -150,7 +211,7 @@ export default function Slider() {
               </p>
             </div>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </div>
   );

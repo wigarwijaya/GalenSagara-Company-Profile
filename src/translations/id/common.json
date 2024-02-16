@@ -145,6 +145,78 @@
         }
       ]
     }
+
+    
+    
+  },
+  "slider": [
+    {
+      "title": "Arsitektur",
+      "content": "Kami mengubah ide-ide Anda menjadi desain inovatif dan berkelanjutan."
+    },
+    {
+      "title": "Perencanaan",
+      "content": "Kami merancang visi Anda, membangun masa depan Anda dengan layanan perencanaan kami."
+    },
+    {
+      "title": "Konsultan Teknik",
+      "content": "Solusi teknik ahli untuk tantangan terberat Anda."
+    },
+    {
+      "title": "Survei",
+      "content": "Data yang akurat, keputusan yang percaya diri - dengan layanan survei kami."
+    },
+    {
+      "title": "Pemetaan",
+      "content": "Memetakan dunia Anda dengan presisi dan detail."
+    },
+    {
+      "title": "Lingkungan",
+      "content": "Bekerja menuju masa depan yang berkelanjutan dengan layanan lingkungan komprehensif kami."
+    },
+    {
+      "title": "Manajemen",
+      "content": "Solusi manajemen yang efisien dan efektif untuk proyek Anda - percayakan kami untuk memberikan hasil."
+    },
+    {
+      "title": "Teknologi Informasi",
+      "content": "Menguatkan bisnis Anda dengan solusi TI inovatif - keahlian kami, kesuksesan Anda."
+    },
+    {
+      "title": "Manajemen Proyek",
+      "content": "Dari konsep hingga penyelesaian - layanan manajemen proyek kami memastikan visi Anda menjadi kenyataan."
+    }
+  ],
+  "aboutUs":{
+    "text": "Merujuk pada Akta Pendirian Perusahaan No. 11 oleh Notaris Tahmid Tirtapradja, SH, Sp1, PT. Samadhi Mangkubumi didirikan pada tanggal 29 Mei 2013 yang berlokasi di kantor pusat, Jl. Situ Cipanunjang No. 09 Bandung. Pada tanggal 5 Maret 2018, PT. Samadhi Mangkubumi mengalami perubahan dalam anggaran dasar, dengan perubahan nama perusahaan, komisaris, dan direktur, yaitu menjadi PT. GALEN SAGARA PERKASA yang disahkan oleh Notaris Harry Susanto, SH, Nomor 01 dan 02, pada tanggal 5 Maret 2018 dan Akta Perubahan Terakhir Nomor 10, tanggal 27 Januari 2021 dengan perubahan dalam hal Komisaris dan Direktur. Dalam pelaksanaan operasional sehari-hari dari manajemen perusahaan, dielola oleh manajemen perusahaan yang dipimpin oleh seorang Direktur Utama dan Direktur-direktur serta dibantu oleh berbagai staf dan Sumber Daya Manusia (SDM) dari berbagai bidang keahlian.",
+    "aboutData":[
+      {
+        "title": "SEJARAH PERUSAHAAN",
+        "companyName": "PT. SAMADHI MANGKUBUMI",
+        "description":
+        "Didirikan pada 29 Mei 2013 di Jl. Situ Cipanunjang No. 09 Bandung - 40265 Notaris: Tahmid Tirtapradja, SH,Sp1"
+      },
+      {
+        "title": "MENJADI:",
+        "companyName": "PT. GALEN SAGARA PERKASA",
+        "description":
+        "Didirikan pada 5 Maret 2018 di Jl. R.A.A. Martanegara No. 56 Bandung - 40264 Telp. 022 – 73518996 Notaris: Harry Susanto, SH"
+      }
+    ],
+    "visionAndMissionData":[   
+      "Menciptakan lapangan kerja bagi sumber daya manusia yang siap menghadapi tantangan masa depan.",
+      "Mengakomodasi dan menyatukan sumber daya manusia bangsa yang handal dan profesional yang memiliki semangat untuk berkreativitas dan bekerja untuk melayani tanah air dan bangsa guna mencapai masa depan yang sukses, cerah, dan gemilang.",
+      "Berpartisipasi dalam mendukung Pembangunan Nasional dengan hasil terbaik.",
+      "Selalu meningkatkan Standar Kualitas Kerja, baik secara nasional maupun internasional.",
+      "Kepuasan klien dan pelayanan maksimal adalah prioritas utama kami.",
+      "Meningkatkan kreativitas & kualitas sumber daya manusia untuk mendukung hasil kerja terbaik.",
+      "Menjadi perusahaan layanan konsultasi terbaik di dalam negeri maupun internasional."
+  ],
+  "CommissionersAndDirectorsData":[
+    { "name": "Taffan Muhammad Rizqi", "position": "Komisaris" },
+    { "name": "Arief Rusman Kamil, SE", "position": "Direktur Utama" },
+    { "name": "Deni Muhammad Rasyid, S.I.Kom", "position": "Direktur"}
+   ]
   },
   "language-selector": {
     "label": "Pilih Bahasa Anda: ",
