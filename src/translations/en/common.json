@@ -5,13 +5,14 @@
     "services":"Services",
     "aboutUs":"About Us",
     "contactUs":"Contact Us"
-
-    
   },
-
+  "and":"and",
+  "download":"Download",
+  "commissioners":"Commissioners",
+  "directors":"Directors",
+  "visionAndmission":"Vision and Mission",
   "Construction planning Service":"{{title}}",
   "Non-Construction Planning Service":"{{title}}",
-
   "categories":"CATEGORIES",
   "see more":"See more",
   "learn more":"learn more",

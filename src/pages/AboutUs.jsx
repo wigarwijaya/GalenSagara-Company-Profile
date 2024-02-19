@@ -11,7 +11,6 @@ const AboutUs = () => {
 
   const { t } = useTranslation("common");
   const aboutUs = t("aboutUs", { returnObjects: true });
-  console.log(aboutUs);
 
 
   return (
@@ -45,7 +44,8 @@ const AboutUs = () => {
 
       <div className="p-6">
         <h3 className="sm:text-3xl text-xl font-medium title-font mb-4 text-gray-900">
-          Vision and Mission of PT. GALEN SAGARA PERKASA:
+          {/* Vision and Mission PT. GALEN SAGARA PERKASA: */}
+          {t("visionAndmission")} PT. GALEN SAGARA PERKASA:
         </h3>
         {aboutUs.visionAndMissionData.map((item, index) => (
           <div className="flex flex-row justify-start mb-2">
@@ -63,7 +63,11 @@ const AboutUs = () => {
         <div className="p-6">
           <div className="flex flex-col text-center w-full mb-4">
             <h1 className="sm:text-3xl text-xl font-medium title-font mb-4 text-gray-900">
-              Commissioners And Directors
+              {/* Commissioners And Directors */}
+              {["commissioners", " and ", "directors"].map((item,index) => (
+              t(`${item}`)
+            ))}
+      
             </h1>
           </div>
           <div className="flex flex-wrap -m-2">
