@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 const ContactUs = () => {
 
@@ -6,6 +7,7 @@ const ContactUs = () => {
     window.scrollTo(0, 0)
   }, [])
 
+  const { t } = useTranslation("common");
   return (
     <section className="relative">
       <div className="container px-5 py-5 mx-auto flex ss:flex-nowrap flex-wrap">
@@ -24,8 +26,10 @@ const ContactUs = () => {
             marginheight="0"
             marginwidth="0"
             scrolling="no"
-            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-          ></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.368740882221!2d107.6231335!3d-6.9412651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e87a42f01b4f%3A0x48ecc0db8849b778!2sJl.%20R.A.A.%20Marta%20Negara%20No.56%2C%20Turangga%2C%20Kec.%20Lengkong%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040264!5e0!3m2!1sen!2sid!4v1645236956951!5m2!1sen!2sid"           
+             style={{border:0}}
+
+         ></iframe>
           <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
@@ -53,11 +57,11 @@ const ContactUs = () => {
         </div>
         <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
           <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
-            Feedback
+            {t("feedback.title")}
           </h2>
           <div className="relative mb-4">
             <label for="name" className="leading-7 text-sm text-gray-600">
-              Name
+         {t("feedback.name")}
             </label>
             <input
               type="text"
@@ -79,7 +83,7 @@ const ContactUs = () => {
           </div>
           <div className="relative mb-4">
             <label for="message" className="leading-7 text-sm text-gray-600">
-              Message
+            {t("feedback.message")}
             </label>
             <textarea
               id="message"
@@ -91,7 +95,7 @@ const ContactUs = () => {
             href=""
             className="w-full h-10 text-black hover:text-white hover:bg-black border-2 border-black mt-5 py-2 px-8 focus:outline-1 rounded text-sm text-center"
           >
-            Submit
+                 {t("feedback.submit")}
           </a>
         </div>
       </div>

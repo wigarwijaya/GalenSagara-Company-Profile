@@ -1,0 +1,233 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "services": "Pelayanan",
+    "aboutUs": "Tentang Kami",
+    "contactUs": "Kontak Kami"
+  },
+  "and":"dan",
+  "download":"Mengunduh",
+  "commissioners":"Komisaris",
+  "directors":"Direktur",
+  "visionAndmission":"Visi dan Misi",
+  "Construction planning Service": "Layanan Perencanaan Konstruksi",
+  "Non-Construction Planning Service": "Layanan Perencanaan Non Konstruksi",
+  "categories": "KATEGORI",
+  "see more": "Lihat lebih lanjut",
+  "learn more": "Pelajari lebih lanjut",
+  "portfolio": "Portofolio",
+  "featured-project": {
+    "serang": {
+      "title": "2022 | Kota Serang",
+      "content": {
+        "title": "Air Lingkungan/Sipil",
+        "text": "Pengeluaran Konsultansi Berorientasi Layanan Khusus Rencana Induk Pipa Air Bersih Kota Serang"
+      }
+    },
+    "bekasi": {
+      "title": "2022 | Kabupaten Bekasi",
+      "content": {
+        "title": "Studi Penelitian dan Bantuan Teknis",
+        "text": "Pengeluaran untuk Membuat Buku Investasi Potensi Bisnis dan Peluang Kabupaten/Kota"
+      }
+    },
+    "magelang": {
+      "title": "2022 | Kota Magelang",
+      "content": {
+        "title": "Studi Penelitian dan Bantuan Teknis",
+        "text": "Studi Pemanfaatan dan Pengelolaan Aset Lahan Pertanian Sawah dengan Sistem Bagi Hasil"
+      }
+    },
+    "bogor": {
+      "title": "2022 | Kota Bogor",
+      "content": {
+        "title": "Telematika",
+        "text": "Pemeliharaan/Pemeliharaan Aplikasi Portal Data Diskominfo"
+      }
+    },
+    "depok": {
+      "title": "2022 | Kota Depok",
+      "content": {
+        "title": "Layanan Survey/Peta",
+        "text": "Dokumen Perencanaan Pencarian Tanah Bagian 1 R3 Katulampa Tajur"
+      }
+    }
+  },
+  "client": {
+    "text": "Parner Kami"
+  },
+  "latestUpdate": {
+    "services": {
+      "text": "Konsultan berpengalaman kami bekerja secara dekat dengan klien untuk memahami kebutuhan dan tantangan unik mereka, memberikan saran dan bimbingan ahli untuk membantu mereka mencapai tujuan mereka",
+      "construction": {
+        "title": "Layanan Perencanaan Konstruksi",
+        "content": "Ubah visi Anda menjadi kenyataan dengan layanan perencanaan konstruksi komprehensif kami, yang dirancang untuk memenuhi kebutuhan unik proyek Anda."
+      },
+      "non-construction": {
+        "title": "Layanan Perencanaan Non-Konstruksi",
+        "content": "Maksimalkan potensi bisnis Anda dengan layanan perencanaan non-konstruksi ahli kami, yang dirancang untuk mengoptimalkan operasi, menyederhanakan proses, dan mendorong kesuksesan."
+      }
+    }
+  },
+  "feedback": {
+    "title": "Masukan",
+    "name": "Nama",
+    "message": "Pesan",
+    "submit": "Kirim"
+  },
+  "footer": {
+    "address": "ALAMAT",
+    "officeAddress": "ALAMAT KANTOR",
+    "phone": "TELEPON"
+  },
+  "construction": {
+    "type": {
+      "planning": [
+        {
+          "title": "LAYANAN PEMBANGUNAN DAERAH – AL002",
+          "content": "Layanan bisnis terkait dengan studi, perencanaan, desain, pengawasan, dan manajemen implementasi konstruksi yang terkait dengan perencanaan tata ruang regional termasuk audit pemanfaatan area dan pengaturan zonasi yang mencakup daratan, laut, udara, dan di dalam bumi termasuk area koridor pulau, area strategis nasional/provinsi/kabupaten/kota, area andalan, area residensial, dan area terbuka hijau/publik."
+        },
+        {
+          "title": "LAYANAN PEMBANGUNAN PERKOTAAN – AL003",
+          "content": "Layanan perencanaan tata ruang perkotaan (meliputi daratan, laut, udara, dan bawah tanah), layanan perencanaan perkotaan, termasuk layanan evaluasi dan layanan konsultasi dalam perencanaan tata ruang perkotaan."
+        },
+        {
+          "title": "LAYANAN PEMBANGUNAN PERKOTAAN – AL004",
+          "content": "Kelompok ini mencakup layanan bisnis terkait dengan tinjauan, perencanaan, desain, pengawasan, dan manajemen konstruksi terkait dengan pengembangan tata lanskap estetika untuk taman, lahan komersial, dan permukiman."
+        },
+        {
+          "title": "LAYANAN TEKNIK LAINNYA – RK005",
+          "content": "Layanan bisnis terkait dengan tinjauan, perencanaan, desain, pengawasan, dan manajemen penyelenggaraan konstruksi terkait: pekerjaan bangunan teknik militer, pekerjaan fasilitas olahraga, pekerjaan pengolahan air bersih, pembuangan air limbah, pengelolaan limbah, fasilitas area & infrastruktur perumahan, industri, rumah sakit, dan sistem pengendalian lalu lintas untuk transportasi darat, udara, dan laut."
+        },
+        {
+          "title": "LAYANAN KONSULTASI ILMIAH DAN TEKNIS TENTANG PERMUKAAN TANAH DAN PEMETAAN – IT003",
+          "content": "Aktivitas survei dan analisis bentuk dan/atau lapisan permukaan bumi menggunakan metode lainnya, termasuk trankit, fotogrametri, dan hidrografi untuk tujuan penyusunan peta dan topologi secara udara/satelit, pemindaian laser, kualitas dan kuantitas minyak bumi, kargo (muatan), batimetri, meteorologi, dan oseanografi."
+        },
+        {
+          "title": "LAYANAN ARSITEKTUR BANGUNAN PERUMAHAN DAN NON PERUMAHAN – AR001",
+          "content": "Studi bisnis, perencanaan, desain, pengawasan, dan manajemen layanan konstruksi serta layanan konsultasi arsitektur dan layanan pra-desain."
+        },
+        {
+          "title": "LAYANAN ARSITEKTUR LAINNYA – AR002",
+          "content": "Kelompok ini mencakup layanan bisnis untuk studi, perencanaan, desain, pengawasan, dan manajemen konstruksi bangunan khusus seperti bangunan warisan budaya, bangunan museum, bangunan penelitian dan teknologi, monumen, bangunan sipil, dan bangunan khusus lainnya yang serupa."
+        }
+      ],
+      "non-planning": [
+        {
+          "title": "PERTANIAN DAN PEMBANGUNAN PERDESAAN",
+          "content": "Pelayanan di bidang pembangunan pertanian dan pedesaan meliputi: Pembangunan Prasarana Sosial dan Partisipasi Masyarakat, Perkreditan dan Kelembagaan, Perkebunan dan Mekanisasi Pertanian, Pembibitan, Pengendalian Hama/Penyakit Tumbuhan, Peternakan, Kehutanan, Perikanan, Tanaman Keras serta Pangan dan Hasil Tumbuhan Lainnya, Konservasi dan Penghijauan, Pembangunan Pertanian dan Pedesaan Lainnya."
+        },
+        {
+          "title": "TRANSPORTASI",
+          "content": [
+            "Pengembangan Fasilitas Transportasi: Survei Asal-Tujuan, Peramalan Permintaan, Pemodelan, Kebijakan, dan Program Investasi.",
+            "Peraturan / Regulasi dalam Sektor Transportasi.",
+            "Usaha jasa transportasi: Regulasi usaha jasa transportasi, manajemen dan pengembangan organisasi bisnis transportasi, analisis keuangan, perhitungan harga dasar, dan penetapan tarif.",
+            "Pembuat Dokumen Analisis Dampak Lalu Lintas.",
+            "Sub-sektor Transportasi Lainnya."
+          ]
+        },
+        {
+          "title": "TELEMATIKA",
+          "content": " Jasa pada bidang telematika meliputi kegiatan di dalam Pertanahan Telekomunikasi, Telekomunikasi Satelit, Perangkat Keras, Konten, sublayanan Aplikasi/Software, dan Telematika lainnya sub-layanan."
+        },
+        {
+          "title": "PERTAMBANGAN DAN ENERGI",
+          "content": " Bidang ini melayani subsektor jasa yang meliputi: Ekonomi dan Konservasi Energi; Minyak dan gas; Batubara, Lignit dan Antrasil; Ekonomi Pemasaran dan Eksplorasi Mineral; Mineral Teknologi; Eksploitasi Komoditas dan Mineral; dan Pertambangan dan  Subsektor Energi Lainnya."
+        },
+        {
+          "title": " JASA KONSULTASI MANAJEMEN",
+          "content": "Pada bidang ini subsektor jasa meliputi: Sistem Akuntansi Perencanaan; Pelatihan dan Pengembangan SDM; Manajemen Fungsional  Konsultasi; Konsultasi Hukum Bisnis."
+        },
+        {
+          "title": "LAYANAN STUDI, PENELITIAN DAN BANTUAN TEKNIS",
+          "content": "Pada bidang ini subsektor jasa meliputi: Kajian Makro; Studi Kelayakan & Studi Mikro Lainnya; Kajian Perencanaan Umum; Layanan Penelitian; Layanan Bantuan Teknis; Minyak dan gas  Pelayanan Penelitian dan Pengembangan, Meliputi : Analisis Inti  Hasil Pengeboran (Analisis Inti); Reservoir Analisis Fluida (Analisis Cairan Reservoir); Analisis Mengenai Dampak Lingkungan; Upaya Pengelolaan Lingkungan Hidup/Pemantauan Lingkungan Hidup; Mempertaruhkan Analisis; Studi Pengembangan Lapangan; Studi kelayakan; Perencanaan  dan Bantuan Teknis (Engineering Design) di luar  Perencanaan konstruksi; Pelajari Peningkatan Pemulihan Minyak."
+        },
+        {
+          "title": "LAYANAN SURVEI",
+          "content": "Bidang ini melayani subsektor jasa, seperti: Terrestrial Survei; Penginderaan Jauh/Fotografi; Hidrografi/Batimetrik Survei; Sistem Informasi Geografis; Survei Kepemilikan Tanah Registrasi/Survei Kadastral Geologi dan Geofisika; Survei Pertanian; Jasa Survey Non Seismik dan Geologi dan Jasa Survei Geofisika (non-seismik)"
+        }
+      ]
+    }
+
+    
+    
+  },
+  "slider": [
+    {
+      "title": "Arsitektur",
+      "content": "Kami mengubah ide-ide Anda menjadi desain inovatif dan berkelanjutan."
+    },
+    {
+      "title": "Perencanaan",
+      "content": "Kami merancang visi Anda, membangun masa depan Anda dengan layanan perencanaan kami."
+    },
+    {
+      "title": "Konsultan Teknik",
+      "content": "Solusi teknik ahli untuk tantangan terberat Anda."
+    },
+    {
+      "title": "Survei",
+      "content": "Data yang akurat, keputusan yang percaya diri - dengan layanan survei kami."
+    },
+    {
+      "title": "Pemetaan",
+      "content": "Memetakan dunia Anda dengan presisi dan detail."
+    },
+    {
+      "title": "Lingkungan",
+      "content": "Bekerja menuju masa depan yang berkelanjutan dengan layanan lingkungan komprehensif kami."
+    },
+    {
+      "title": "Manajemen",
+      "content": "Solusi manajemen yang efisien dan efektif untuk proyek Anda - percayakan kami untuk memberikan hasil."
+    },
+    {
+      "title": "Teknologi Informasi",
+      "content": "Menguatkan bisnis Anda dengan solusi TI inovatif - keahlian kami, kesuksesan Anda."
+    },
+    {
+      "title": "Manajemen Proyek",
+      "content": "Dari konsep hingga penyelesaian - layanan manajemen proyek kami memastikan visi Anda menjadi kenyataan."
+    }
+  ],
+  "aboutUs":{
+    "text": "Merujuk pada Akta Pendirian Perusahaan No. 11 oleh Notaris Tahmid Tirtapradja, SH, Sp1, PT. Samadhi Mangkubumi didirikan pada tanggal 29 Mei 2013 yang berlokasi di kantor pusat, Jl. Situ Cipanunjang No. 09 Bandung. Pada tanggal 5 Maret 2018, PT. Samadhi Mangkubumi mengalami perubahan dalam anggaran dasar, dengan perubahan nama perusahaan, komisaris, dan direktur, yaitu menjadi PT. GALEN SAGARA PERKASA yang disahkan oleh Notaris Harry Susanto, SH, Nomor 01 dan 02, pada tanggal 5 Maret 2018 dan Akta Perubahan Terakhir Nomor 10, tanggal 27 Januari 2021 dengan perubahan dalam hal Komisaris dan Direktur. Dalam pelaksanaan operasional sehari-hari dari manajemen perusahaan, dielola oleh manajemen perusahaan yang dipimpin oleh seorang Direktur Utama dan Direktur-direktur serta dibantu oleh berbagai staf dan Sumber Daya Manusia (SDM) dari berbagai bidang keahlian.",
+    "aboutData":[
+      {
+        "title": "SEJARAH PERUSAHAAN",
+        "companyName": "PT. SAMADHI MANGKUBUMI",
+        "description":
+        "Didirikan pada 29 Mei 2013 di Jl. Situ Cipanunjang No. 09 Bandung - 40265 Notaris: Tahmid Tirtapradja, SH,Sp1"
+      },
+      {
+        "title": "MENJADI:",
+        "companyName": "PT. GALEN SAGARA PERKASA",
+        "description":
+        "Didirikan pada 5 Maret 2018 di Jl. R.A.A. Martanegara No. 56 Bandung - 40264 Telp. 022 – 73518996 Notaris: Harry Susanto, SH"
+      }
+    ],
+    "visionAndMissionData":[   
+      "Menciptakan lapangan kerja bagi sumber daya manusia yang siap menghadapi tantangan masa depan.",
+      "Mengakomodasi dan menyatukan sumber daya manusia bangsa yang handal dan profesional yang memiliki semangat untuk berkreativitas dan bekerja untuk melayani tanah air dan bangsa guna mencapai masa depan yang sukses, cerah, dan gemilang.",
+      "Berpartisipasi dalam mendukung Pembangunan Nasional dengan hasil terbaik.",
+      "Selalu meningkatkan Standar Kualitas Kerja, baik secara nasional maupun internasional.",
+      "Kepuasan klien dan pelayanan maksimal adalah prioritas utama kami.",
+      "Meningkatkan kreativitas & kualitas sumber daya manusia untuk mendukung hasil kerja terbaik.",
+      "Menjadi perusahaan layanan konsultasi terbaik di dalam negeri maupun internasional."
+  ],
+  "CommissionersAndDirectorsData":[
+    { "name": "Taffan Muhammad Rizqi", "position": "Komisaris" },
+    { "name": "Arief Rusman Kamil, SE", "position": "Direktur Utama" },
+    { "name": "Deni Muhammad Rasyid, S.I.Kom", "position": "Direktur"}
+   ]
+  },
+  "language-selector": {
+    "label": "Pilih Bahasa Anda: ",
+    "languages": {
+      "text": "Bahasa",
+      "id": "Indonesia",
+      "en": "Inggris"
+    }
+  }
+}

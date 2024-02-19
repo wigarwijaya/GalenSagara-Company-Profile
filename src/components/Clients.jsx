@@ -23,8 +23,11 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Pagination } from "swiper";
+import { useTranslation } from "react-i18next";
+
 
 const Clients = () => {
+  const { t } = useTranslation("common");
   return (
     <section className="body-font w-screen">
       <div
@@ -33,7 +36,7 @@ const Clients = () => {
       >
         <div className="flex flex-col w-full">
           <h1 className="sm:text-3xl text-2xl text-center font-medium title-font text-gray-900">
-            Our Partners
+            {t("client.text")}
           </h1>
         </div>
         <div>

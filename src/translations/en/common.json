@@ -1,0 +1,231 @@
+{
+  
+  "nav": {
+    "home":"Home",
+    "services":"Services",
+    "aboutUs":"About Us",
+    "contactUs":"Contact Us"
+  },
+  "and":"and",
+  "download":"Download",
+  "commissioners":"Commissioners",
+  "directors":"Directors",
+  "visionAndmission":"Vision and Mission",
+  "Construction planning Service":"{{title}}",
+  "Non-Construction Planning Service":"{{title}}",
+  "categories":"CATEGORIES",
+  "see more":"See more",
+  "learn more":"learn more",
+  "portfolio":"Portfolio",
+  "featured-project": {
+    "serang": {
+      "title": "2022 | Serang City",
+      "content": {
+        "title": "Environmental/Civil Water",
+        "text": "Special Services Oriented Consultancy Expenditures Serang City Clean Water Pipeline Master Plan"
+      }
+    },
+    "bekasi": {
+      "title": "2022 | Bekasi District",
+      "content": {
+        "title": "Research Studies and Technical Assistance",
+        "text": "Expenditures for Making Investment Books on Regency/City Business Potential and Opportunities"
+      }
+    },
+    "magelang": {
+      "title": "2022 | Magelang City",
+      "content": {
+        "title": " Research Studies and Technical Assistance",
+        "text": "  Study of Utilization and Management of Paddy Field Agricultural Land Assets with a Profit Sharing System"
+      }
+    },
+    "bogor": {
+      "title": "2022 | Bogor City",
+      "content": {
+        "title": "Telematics",
+        "text": "  Maintenance/Maintenance of the Diskominfo Data Portal Application"
+      }
+    },
+    "depok": {
+      "title": "2022 | Depok City",
+      "content": {
+        "title": "Survey/Map services",
+        "text": "Land Acquisition Planning Document R3 Katulampa Tajur Section 1"
+      }
+
+    }
+    
+  },
+
+  "client": {
+    "text":"Our Partners"
+  },
+
+  "latestUpdate": {
+    "services": {
+      "text":"  Our experienced consultants work closely with clients to understand their unique needs and challenges, providing expert advice and guidance to help them achieve their goals.",
+      "construction": {
+        "title":"Construction Planning Service",
+        "content":"{{content}}"
+      },
+      "non-construction": {
+        "title":"Non-Construction Planning Service",
+        "content":"{{content}}"
+      }
+    }
+  }
+  ,
+  "feedback": {
+    "title":"Feedback",
+    "name":"Name",
+    "message":"Message",
+    "submit":"Submit"
+  },
+  "footer":{
+    "address":"ADDRESS",
+    "officeAddress":"OFFICE ADDRESS",
+    "phone":"PHONE"
+  },  
+"construction":{
+  "type":{
+    "planning":[{
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    }
+  ]
+    ,
+    "non-planning":[{
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": ["{{content}}"]
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    },
+    {
+      "title":"{{title}}",
+      "content": "{{content}}"
+    }
+  ]
+  }
+},
+"slider" : [
+  {
+    "title":"{{title}}",
+    "content": "{{content}}"
+  },
+  {
+    "title":"{{title}}",
+    "content": "{{content}}"
+  },
+  {
+    "title":"{{title}}",
+    "content": "{{content}}"
+  },
+  {
+    "title":"{{title}}",
+    "content": "{{content}}"
+  },
+  {
+    "title":"{{title}}",
+    "content": "{{content}}"
+  },
+  {
+    "title":"{{title}}",
+    "content": "{{content}}"
+  },
+  {
+    "title":"{{title}}",
+    "content": "{{content}}"
+  },
+  {
+    "title":"{{title}}",
+    "content": "{{content}}"
+  },
+  {
+    "title":"{{title}}",
+    "content": "{{content}}"
+  }
+],
+"aboutUs":{
+  "text": "Referring to the Deed of Establishment of the Company No. 11 by Notary Tahmid Tirtapradja, SH, Sp1, PT. Samadhi Mangkubumi was established on May 29 2013 which is located at the head office, Jl. Situ Cipanunjang No. 09 Bandung. On   March 5 2018, PT. Samadhi Mangkubumi, underwent a change in the articles of association, with a change in the name of the company, commissioners and directors, namely to become PT. GALEN SAGARA PERKASA which was legalized by Notary Harry Susanto, SH, Numbers 01 and 02, on March 5 2018 and the latest Deed of Amendment Number 10, January 27 2021 with changes to the Commissioners and Directors In the day-to-day operational implementation of company management, it is managed by company management led by a President Director and Directors and assisted by various staff and Human Resources (HR) from various fields of expertise.",
+  "aboutData":[
+    {
+      "title": "COMPANY HISTORY:",
+      "companyName": "PT. SAMADHI MANGKUBUMI",
+      "description":
+        "Established 29 Mei 2013 at Jl. Situ Cipanunjang No. 09 Bandung - 40265 Notary Public : Tahmid Tirtapradja, SH,Sp1"
+    },
+    {
+      "title": "BECOME:",
+      "companyName": "PT. GALEN SAGARA PERKASA",
+      "description":
+        "Established 5 Maret 2018 at Jl. R.A.A. Martanegara No. 56 Bandung - 40264 Telp. 022 – 73518996 Notary Public : Harry Susanto, SH"
+    }
+  ],
+  "visionAndMissionData":[   
+  "Creating jobs for human resources who are ready to face future challenges.",
+  "To accommodate and unite the nation's human resources who are reliable and professional who have the spirit to be creative and work to serve the homeland and the nation in order to achieve a successful, bright and glorious future.",
+  "Participate in supporting National Development with the best results.",
+  "Always improve the Quality Standards of Work, both on a national and on a national scale international.",
+  "Client satisfaction and maximum service is our top priority.",
+  "Improving the creativity & quality of human resources to support the results of the work best.",
+  "Become the best consulting services company in the country and international."
+],
+"CommissionersAndDirectorsData":[
+  { "name": "Taffan Muhammad Rizqi", "position": "Commissioner" },
+  { "name": "Arief Rusman Kamil, SE", "position": "President Director" },
+  { "name": "Deni Muhammad Rasyid, S.I.Kom", "position": "Director"}
+ ]
+}
+  ,
+	"language-selector": {
+		"label": "Select your language:",
+		"languages": {
+			"text":"Language",
+			"id": "Indonesian",
+			"en": "English"
+   
+		}
+	}
+}
