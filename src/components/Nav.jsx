@@ -74,8 +74,8 @@ function Navbar({ item, close }) {
         </Link>
       </li>
       <div>
-        <label style={{ marginRight: "10px" }} htmlFor="language">
-          {t("language-selector.languages.text")}
+        <label className = "mr-0" htmlFor="language">
+        
         </label>
 
         <select

@@ -26,8 +26,10 @@ const ContactUs = () => {
             marginheight="0"
             marginwidth="0"
             scrolling="no"
-            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-          ></iframe>
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.368740882221!2d107.6231335!3d-6.9412651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e87a42f01b4f%3A0x48ecc0db8849b778!2sJl.%20R.A.A.%20Marta%20Negara%20No.56%2C%20Turangga%2C%20Kec.%20Lengkong%2C%20Kota%20Bandung%2C%20Jawa%20Barat%2040264!5e0!3m2!1sen!2sid!4v1645236956951!5m2!1sen!2sid"           
+             style={{border:0}}
+
+         ></iframe>
           <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
